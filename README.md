@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, My name is Witchakorn Wanasanwongkot</h1>
 
-<h3 align="center">Graduate Student in Big Data Engineering</h3>
+<h3 align="left">About</h3>
 
 I am currently studying for my Master's in Big Data Engineering. My skill sets include SQL, Google Sheets, Python, Microsoft Excel, Git, Bash, and Docker. I have previous experience in data cleansing, and data manipulation with Python at a tech start-up company focused on OCR technology, where I worked closely with data scientists to drive data-driven decision making. I am currently seeking a data engineer role where I can utilize my skills and experience to make a positive impact.
 
