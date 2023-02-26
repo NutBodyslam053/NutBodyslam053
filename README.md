@@ -6,10 +6,14 @@ I am currently studying for my Master's in Big Data Engineering. My skill sets i
 
 - 🧠 I’m currently learning **Data Science, Data Engineering, and Japanese.**
 
-- 👨‍💻 My Data Science Projects:
-    -  Data Manipulation:
+- 👨‍💻 My Data Analytics Projects:
+    -  SQL:
         - [SQLite - Chinook](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/SQL/sqlite-chinook.ipynb)
         - [MySQL - Sakila](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/SQL/mysql-sakila.ipynb)
+    -  Python:
+        - [Reporting on Sale Data](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Python/Reporting%20on%20Sale%20Data.ipynb)
+
+- 👨‍💻 My Data Science Projects:
     -  Machine Learning:
         -  [Linear Regression - Car price prediction](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/01-LinearRegression/01-carprice.ipynb)
         -  [Logistic Regression - Customer churn Prediction](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/02-LogisticRegression/02-churn.ipynb)
