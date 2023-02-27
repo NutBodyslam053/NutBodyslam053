@@ -21,6 +21,7 @@ I am currently studying for my Master's in Big Data Engineering. My skill sets i
 
 - 👨‍💻 My Data Engineering Projects:
     - Docker:
+        - [Creating a PostgreSQL database & pgAdmin4 using Docker Compose](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/2_docker_sql/docker-compose.yaml)
         - [Ingesting data into a PostgreSQL database running on Docker](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/2_docker_sql/ingest-data.py)
     - Google Cloud Platform (GCP) & Prefect:
         - [ELT: Data source -> Data Lake, Google Cloud Storage (GCS)](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/flows/02_gcp/elt_web_to_gcs.py)
