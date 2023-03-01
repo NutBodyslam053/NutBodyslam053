@@ -24,8 +24,8 @@ I am currently studying for my Master's in Big Data Engineering. My skill sets i
         - [Creating a PostgreSQL database & pgAdmin4 using Docker Compose](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/2_docker_sql/docker-compose.yaml)
         - [Ingesting data into a PostgreSQL database running on Docker](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/2_docker_sql/ingest-data.py)
     - Google Cloud Platform (GCP) & Prefect:
-        - [ELT: Data source -> Data Lake | Web -> Google Cloud Storage (GCS)](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/flows/02_gcp/elt_web_to_gcs.py)
-        - [ETL: Data Lake -> Data Warehouse | Google Cloud Storage (GCS) -> BigQuery](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/flows/02_gcp/etl_gcs_to_bq.py)
+        - [ELT: Data source [Web] -> Data Lake [Google Cloud Storage; GCS]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/flows/02_gcp/elt_web_to_gcs.py)
+        - [ETL: Data Lake [Google Cloud Storage; GCS] -> Data Warehouse [BigQuery]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/flows/02_gcp/etl_gcs_to_bq.py)
         - [Parameterizing Flow & Deployment with ETL Integration into GCS Workflow](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/flows/03_deployments/parameterized_flow.py)
 
 <h3 align="left">Languages and Tools:</h3>
