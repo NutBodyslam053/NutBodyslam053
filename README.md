@@ -16,7 +16,7 @@ I am currently studying for my Master's in Big Data Engineering. My skill sets i
 - 👨‍💻 My Data Science Projects:
     -  Machine Learning:
         -  [Linear Regression - Car price prediction](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/01-LinearRegression/01-carprice.ipynb)
-        -  [Logistic Regression - Customer churn Prediction](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/02-LogisticRegression/02-churn.ipynb)
+        -  [Logistic Regression - Customer churn prediction](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/02-LogisticRegression/02-churn.ipynb)
         -  [Classification Tree - Credit scoring](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/04-ClassificationTree/05-credit_scoring.ipynb)
 
 - 👨‍💻 My Data Engineering Projects:
@@ -28,7 +28,7 @@ I am currently studying for my Master's in Big Data Engineering. My skill sets i
         - [ETL: Data Lake [Google Cloud Storage; GCS] -> Data Warehouse [BigQuery]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/flows/02_gcp/etl_gcs_to_bq.py)
         - [Parameterizing Flow & Deployment with ETL Integration into GCS Workflow](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/flows/03_deployments/parameterized_flow.py)
     - Airflow:
-        - [Data pipeline orchestration with Airflow](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Airflow/Airflow.py)
+        - [ELT: Data source [Database, Web] -> Data Lake [Google Cloud Storage; GCS]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Airflow/Airflow.py)
     - Spark:
         - [Manipulating data with PySpark](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Spark/PySpark.ipynb)
 
