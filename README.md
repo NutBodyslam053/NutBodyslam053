@@ -11,7 +11,7 @@ I am currently studying for my Master's in Big Data Engineering. My skill sets i
         - [SQLite - Chinook](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/SQL/sqlite-chinook.ipynb)
         - [MySQL - Sakila](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/SQL/mysql-sakila.ipynb)
     -  Python:
-        - [Reporting on Sale Data](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Python/Reporting%20on%20Sale%20Data.ipynb)
+        - [Reporting on Sale Data](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Python/reporting_on_sale_data.ipynb)
 
 - 👨‍💻 My Data Science Projects:
     -  Machine Learning:
