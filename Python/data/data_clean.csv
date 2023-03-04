@@ -1,0 +1,9 @@
+Timestamp,age (years),gender,product,price,service,overall,skills,alpha,beta,gamma,product_n,price_n,service_n,overall_n,Access,Excel,PowerPoint,Python,R,SPSS,SQL,Word,alpha_bakery,alpha_coffee,alpha_ice cream,alpha_tea,beta_bakery,beta_coffee,beta_ice cream,beta_tea,gamma_bakery,gamma_coffee,gamma_ice cream,gamma_tea
+2021-03-09 07:28:24.801,21.0,M,very dissatisfied,dissatisfied,neutral,very satisfied,"Word, Excel, PowerPoint, SQL, Python, R",coffee,tea,bakery,1.0,2.0,3.0,5.0,0,1,1,1,1,0,1,1,0,1,0,0,0,0,0,1,1,0,0,0
+2021-03-09 07:35:55.097,18.0,F,dissatisfied,neutral,satisfied,very satisfied,"Word, Excel, PowerPoint, SPSS","coffee, tea, bakery, ice cream","coffee, tea, bakery",tea,2.0,3.0,4.0,5.0,0,1,1,0,0,1,0,1,1,1,1,1,1,1,0,1,0,0,0,1
+2021-03-09 08:11:57.871,35.0,X,dissatisfied,neutral,satisfied,very satisfied,"Excel, SQL, Python, R","coffee, tea, bakery, ice cream","tea, ice cream","coffee, bakery",2.0,3.0,4.0,5.0,0,1,0,1,1,0,1,0,1,1,1,1,0,0,1,1,1,1,0,0
+2021-03-09 08:12:30.173,21.0,X,satisfied,neutral,dissatisfied,very dissatisfied,"Word, Excel, PowerPoint, Access",tea,"coffee, bakery","tea, bakery, ice cream",4.0,3.0,2.0,1.0,1,1,1,0,0,0,0,1,0,0,0,1,1,1,0,0,1,0,1,1
+2021-03-09 11:28:54.492,33.0,F,satisfied,satisfied,very satisfied,very satisfied,"Excel, Python, R, SPSS",tea,bakery,"coffee, tea, bakery, ice cream",4.0,4.0,5.0,5.0,0,1,0,1,1,1,0,0,0,0,0,1,1,0,0,0,1,1,1,1
+2021-03-09 22:12:09.455,44.0,,very dissatisfied,dissatisfied,,,,coffee,,tea,1.0,2.0,,,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1
+2021-03-11 07:59:04.920,44.0,M,very dissatisfied,dissatisfied,neutral,very satisfied,"Excel, SQL, R","coffee, tea","tea, bakery","coffee, ice cream",1.0,2.0,3.0,5.0,0,1,0,0,1,0,1,0,0,1,0,1,1,0,0,1,0,1,1,0
+2021-03-11 08:04:16.205,,,,,,,,tea,coffee,"coffee, tea, bakery, ice cream",,,,,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,1,1,1
