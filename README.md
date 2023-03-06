@@ -28,7 +28,7 @@ I am currently studying for my Master's in Big Data Engineering. My skill sets i
         - [ETL: Data Lake [Google Cloud Storage; GCS] -> Data Warehouse [BigQuery]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/flows/02_gcp/etl_gcs_to_bq.py)
         - [Parameterizing Flow & Deployment with ETL Integration into GCS Workflow](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/flows/03_deployments/parameterized_flow.py)
     - Airflow:
-        - [ELT: Data source [Database, Web] -> Data Lake [Google Cloud Storage; GCS]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Airflow/Airflow.py)
+        - [Data Pipeline: Data source [Database, Web] -> Data Lake [Google Cloud Storage; GCS] -> Data Warehouse [BigQuery]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Airflow/start_ws5_gcs_to_bq.py)
     - Spark:
         - [Manipulating data with PySpark](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Spark/PySpark.ipynb)
 
