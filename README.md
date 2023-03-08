@@ -2,11 +2,11 @@
 
 <h3 align="left">About</h3>
 
-I am currently studying for my Master's in Big Data Engineering. My skill sets include SQL, Google Sheets, Python, Microsoft Excel, Git, Bash, and Docker. I have previous experience in data cleansing, and data manipulation with Python at a tech start-up company focused on OCR technology, where I worked closely with data scientists to drive data-driven decision making. I am currently seeking a data engineer role where I can utilize my skills and experience to make a positive impact.
+I am currently studying for my Master's in Big Data Engineering. My skill sets include SQL, Google Sheets, Python, Microsoft Excel, Git, Bash, Docker, PySpark, Airflow, and Google Cloud. I have previous experience in data cleansing, and data manipulation with Python at a tech start-up company focused on OCR technology, where I worked closely with data scientists to drive data-driven decision making. I am currently seeking a data engineer role where I can utilize my skills and experience to make a positive impact.
 
 - 🧠 I’m currently learning **Data Science, Data Engineering, and Japanese.**
 
-- 👨‍💻 My Data Analytics Projects:
+- 👨‍💻 **My Data Analytics Projects:**
     -  SQL:
         - [SQLite - Chinook](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/SQL/sqlite-chinook.ipynb)
         - [MySQL - Sakila](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/SQL/mysql-sakila.ipynb)
@@ -15,13 +15,13 @@ I am currently studying for my Master's in Big Data Engineering. My skill sets i
     - Looker:
         - [Generating a report by connecting data from BigQuery](https://lookerstudio.google.com/reporting/5b79a5f1-8678-4b13-9cd2-f43c39f2ef75)
 
-- 👨‍🔬 My Data Science Projects:
+- 👨‍🔬 **My Data Science Projects:**
     -  Machine Learning:
         -  [Linear Regression - Car price prediction](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/01-LinearRegression/01-carprice.ipynb)
         -  [Logistic Regression - Customer churn prediction](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/02-LogisticRegression/02-churn.ipynb)
         -  [Classification Tree - Credit scoring](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/04-ClassificationTree/05-credit_scoring.ipynb)
 
-- 👷‍♂️ My Data Engineering Projects:
+- 👷‍♂️ **My Data Engineering Projects:**
     - Docker:
         - [Creating a PostgreSQL database & pgAdmin4 using Docker Compose](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/2_docker_sql/docker-compose.yaml)
         - [Ingesting data into a PostgreSQL database running on Docker](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/2_docker_sql/ingest-data.py)
