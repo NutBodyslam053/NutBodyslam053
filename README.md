@@ -12,6 +12,8 @@ I am currently studying for my Master's in Big Data Engineering. My skill sets i
         - [MySQL - Sakila](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/SQL/mysql-sakila.ipynb)
     -  Python:
         - [Reporting on Sale Data](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Python/reporting_on_sale_data.ipynb)
+    - Looker:
+        - [Generating a report by connecting data from BigQuery](https://lookerstudio.google.com/reporting/5b79a5f1-8678-4b13-9cd2-f43c39f2ef75)
 
 - 👨‍💻 My Data Science Projects:
     -  Machine Learning:
