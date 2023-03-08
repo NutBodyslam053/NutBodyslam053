@@ -15,13 +15,13 @@ I am currently studying for my Master's in Big Data Engineering. My skill sets i
     - Looker:
         - [Generating a report by connecting data from BigQuery](https://lookerstudio.google.com/reporting/5b79a5f1-8678-4b13-9cd2-f43c39f2ef75)
 
-- 👨‍💻 My Data Science Projects:
+- 👨‍🔬 My Data Science Projects:
     -  Machine Learning:
         -  [Linear Regression - Car price prediction](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/01-LinearRegression/01-carprice.ipynb)
         -  [Logistic Regression - Customer churn prediction](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/02-LogisticRegression/02-churn.ipynb)
         -  [Classification Tree - Credit scoring](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/04-ClassificationTree/05-credit_scoring.ipynb)
 
-- 👨‍💻 My Data Engineering Projects:
+- 👷‍♂️ My Data Engineering Projects:
     - Docker:
         - [Creating a PostgreSQL database & pgAdmin4 using Docker Compose](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/2_docker_sql/docker-compose.yaml)
         - [Ingesting data into a PostgreSQL database running on Docker](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/2_docker_sql/ingest-data.py)
