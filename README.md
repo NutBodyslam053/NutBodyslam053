@@ -12,7 +12,7 @@ I am currently studying for my Master's in Big Data Engineering. My skill sets i
         - [MySQL - Sakila](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/SQL/mysql-sakila.ipynb)
     -  Python:
         - [Sales Data Analytics for Motorcycle Report](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Python/reporting_on_sale_data.ipynb)
-        - [Google Trends Analytics for Smartphone Report](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/GoogleTrands/GoogleTrends-smartphone.ipynb)
+        - [Google Trends Analytics for Smartphone Report - [Data Source (Google Trends) >> Database (Google Sheets) >> Visualization (Looker)]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/GoogleTrands/GoogleTrends-smartphone.ipynb)
     - Looker:
         - [Generating a report by connecting data from GoogleSheets](https://lookerstudio.google.com/u/0/reporting/743d4b2c-484f-4a25-8559-ce61c9318bf4/page/dlwOD)
         - [Generating a report by connecting data from BigQuery](https://lookerstudio.google.com/reporting/5b79a5f1-8678-4b13-9cd2-f43c39f2ef75)
@@ -21,17 +21,17 @@ I am currently studying for my Master's in Big Data Engineering. My skill sets i
     -  Machine Learning:
         -  [Linear Regression - Car price prediction](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/01-LinearRegression/01-carprice.ipynb)
         -  [Logistic Regression - Customer churn prediction](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/02-LogisticRegression/02-churn.ipynb)
-        -  [Classification Tree - Credit scoring](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/04-ClassificationTree/05-credit_scoring.ipynb)
+        -  [Classification Tree - Credit scoring](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/04-ClassificationTree/04-credit_scoring.ipynb)
 
 - 👷‍♂️ **My Data Engineering Projects:**
     - Docker:
         - [Ingesting data into a PostgreSQL database running on Docker](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/2_docker_sql/ingest-data.py)
     - Prefect:
-        - [ELT: Data source [Web] -> Data Lake [Google Cloud Storage; GCS]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/flows/02_gcp/elt_web_to_gcs.py)
-        - [ETL: Data Lake [Google Cloud Storage; GCS] -> Data Warehouse [BigQuery]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/flows/02_gcp/etl_gcs_to_bq.py)
+        - [ELT - [Data Source (Web) >> Data Lake (Google Cloud Storage; GCS)]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/flows/02_gcp/elt_web_to_gcs.py)
+        - [ETL - [Data Lake (Google Cloud Storage; GCS) >> Data Warehouse (BigQuery) >> Visualization (Looker)]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/flows/02_gcp/etl_gcs_to_bq.py)
         - [Parameterizing Flow & Deployment with ETL Integration into GCS Workflow](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/flows/03_deployments/parameterized_flow.py)
     - Airflow:
-        - [Data Pipeline: Data source [Database, Web] -> Data Lake [Google Cloud Storage; GCS] -> Data Warehouse [BigQuery]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Airflow/start_ws5_gcs_to_bq.py)
+        - [Data Pipeline - [Data Source (Database, Web) >> Data Lake (Google Cloud Storage; GCS) >> Data Warehouse (BigQuery)]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Airflow/start_ws5_gcs_to_bq.py)
     - Spark:
         - [Manipulating data with PySpark](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Spark/PySpark.ipynb)
 
