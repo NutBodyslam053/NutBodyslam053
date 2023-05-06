@@ -25,7 +25,7 @@ I am currently studying for my Master's in Big Data Engineering. My skill sets i
 
 - 👷‍♂️ **My Data Engineering Projects:**
     - Docker:
-        - [Ingesting data into a PostgreSQL database running on Docker :: `Web -> PostgreSQL`](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/2_docker_sql/ingest-data.py)
+        - [Ingesting data into a PostgreSQL database running on Docker :: ( *Web -> PostgreSQL* )](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/2_docker_sql/ingest-data.py)
     - Prefect:
         - [Ingesting data into a PostgreSQL database running on Local :: `Web -> PostgreSQL`](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/01_start/ingest-data-prefect.py)
         - [ETL workflow :: | *Web -> Local -> GCS -> BigQuery* |](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/02_gcp/etl-web_to_gcs_to_bg.py)
