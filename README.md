@@ -28,10 +28,10 @@ I am currently studying for my Master's in Big Data Engineering. My skill sets i
         - [Ingesting data into a PostgreSQL database running on Docker :: [ *Web -> PostgreSQL* ]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/2_docker_sql/ingest-data.py)
     - Prefect:
         - [Ingesting data into a PostgreSQL database running on Local :: [ *Web -> PostgreSQL* ]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/01_start/ingest-data-prefect.py)
-        - [ETL workflow :: [ *Web -> Local -> GCS -> BigQuery* ]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/02_gcp/etl-web_to_gcs_to_bg.py)
+        - [ETL workflow :: [ *Web -> Local -> Google Cloud Storage -> BigQuery* ]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/02_gcp/etl-web_to_gcs_to_bg.py)
         - [Parameterizing Flow & Deployments](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/03_deployments/parameterized_flow.py)
     - Airflow:
-        - [Data Pipeline :: [ *Database, Web -> Google Cloud Storage -> BigQuery* ]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Airflow/start_ws5_gcs_to_bq.py)
+        - [ETL workflow :: [ *Database, Web -> Google Cloud Storage -> BigQuery* ]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Airflow/start_ws5_gcs_to_bq.py)
     - Spark:
         - [Manipulating data with PySpark](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Spark/PySpark.ipynb)
 
