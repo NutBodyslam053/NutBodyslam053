@@ -14,8 +14,8 @@ I am currently studying for my Master's in Big Data Engineering. My skill sets i
         - [Sales Data Analytics for Motorcycle Report](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Python/reporting_on_sale_data.ipynb)
         - [Google Trends Analytics for Smartphone Report :: [ *Google Trends -> Google Sheets -> Looker* ]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/GoogleTrands/GoogleTrends-smartphone.ipynb)
     - Looker:
-        - [Generating a report by connecting data from GoogleSheets](https://lookerstudio.google.com/u/0/reporting/743d4b2c-484f-4a25-8559-ce61c9318bf4/page/dlwOD)
-        - [Generating a report by connecting data from BigQuery](https://lookerstudio.google.com/reporting/5b79a5f1-8678-4b13-9cd2-f43c39f2ef75)
+        - [Generating a report by connecting data from *GoogleSheets*](https://lookerstudio.google.com/u/0/reporting/743d4b2c-484f-4a25-8559-ce61c9318bf4/page/dlwOD)
+        - [Generating a report by connecting data from *BigQuery*](https://lookerstudio.google.com/reporting/5b79a5f1-8678-4b13-9cd2-f43c39f2ef75)
 
 - 👨‍🔬 **My Data Science Projects:**
     -  Machine Learning:
@@ -33,7 +33,7 @@ I am currently studying for my Master's in Big Data Engineering. My skill sets i
     - Airflow:
         - [ETL workflow :: [ *Database, Web -> Google Cloud Storage -> BigQuery* ]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Airflow/start_ws5_gcs_to_bq.py)
     - Spark:
-        - [Manipulating data with PySpark](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Spark/PySpark.ipynb)
+        - [Manipulating data with *PySpark*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Spark/PySpark.ipynb)
 
 <h3 align="left">Languages and Tools:</h3>
 
