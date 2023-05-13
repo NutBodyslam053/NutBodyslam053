@@ -59,7 +59,8 @@ I am currently studying for my Master's in Big Data Engineering. My skill sets i
 - **Database Management Systems:**
 
     <img src="https://www.vectorlogo.zone/logos/mysql/mysql-official.svg" height="40"/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" height="40"/>
+    <img src="https://icon-library.com/images/postgresql-icon/postgresql-icon-13.jpg" height="40"/>
+    <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" height="40"/> -->
     <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Neo4j-logo_color.png" height="40"/> -->
     <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" height="40"/>
 
@@ -67,8 +68,8 @@ I am currently studying for my Master's in Big Data Engineering. My skill sets i
 
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Google_Sheets_logo_%282014-2020%29.svg/1498px-Google_Sheets_logo_%282014-2020%29.svg.png" height="40"/>
     <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" height="40"/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Looker.svg" height="40"/>
-    <!-- <img src="https://www.gstatic.com/analytics-lego/svg/ic_looker_studio.svg" height="40"/> -->
+    <img src="https://valiotti.com/wp-content/uploads/2022/10/lookerstudiogoogle.svg" height="40"/>
+    <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Looker.svg" height="40"/> -->
 
 - **Big Data Processing Frameworks:**
 
@@ -93,6 +94,8 @@ I am currently studying for my Master's in Big Data Engineering. My skill sets i
     <img src="https://jupyter.org/assets/homepage/main-logo.svg" height="40"/> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" height="40"/> 
     <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg" height="40"/>
+    <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Gnu-bash-logo.svg" height="40"/> -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/PowerShell_Core_6.0_icon.png" height="40"/>
     <img src="https://git-scm.com/images/logo@2x.png" height="40"/> 
     <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg" height="40"/>
 
@@ -100,16 +103,18 @@ I am currently studying for my Master's in Big Data Engineering. My skill sets i
 
 - **HackerRank:**
 
-    <a href="https://www.hackerrank.com/certificates/441eeb7976d6"> <img src="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/hackerrank-problem_solving_basic.png?raw=true" width="33%"/></a>
-    <a href="https://www.hackerrank.com/certificates/81fb347a6c05"> <img src="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/hackerrank-python_basic.png?raw=true" width="33%"/></a>
-    <a href="https://www.hackerrank.com/certificates/39ff3dd8f5f2"> <img src="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/hackerrank-sql_intermediate.png?raw=true" width="33%"/></a>
+    <a href="https://www.hackerrank.com/certificates/441eeb7976d6"> <img src="Certificates/HackerRank/hackerrank-problem_solving_basic.png" width="33%"/></a>
+    <a href="https://www.hackerrank.com/certificates/81fb347a6c05"> <img src="Certificates/HackerRank/hackerrank-python_basic.png" width="33%"/></a>
+    <a href="https://www.hackerrank.com/certificates/39ff3dd8f5f2"> <img src="Certificates/HackerRank/hackerrank-sql_intermediate.png" width="33%"/></a>
 
 - **DataCamp:**
 
-    <a href="https://www.datacamp.com/statement-of-accomplishment/track/65e86c8c071eae3ad624db674cf86470911fc765?raw=1"> <img src="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/datacamp-data_engineer.png?raw=true" width="33%"/></a>
+    <a href="https://www.datacamp.com/statement-of-accomplishment/track/65e86c8c071eae3ad624db674cf86470911fc765?raw=1"> <img src="Certificates/DataCamp/datacamp-data_engineer.png" width="33%"/></a>
 
 - **Coursera:**
 
-    <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/B2WRX4EMCXUP"> <img src="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/coursera-google_data_analytics.png?raw=true" width="33%"/></a>
+    <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/B2WRX4EMCXUP"> <img src="Certificates/Coursera/coursera-google_data_analytics.png" width="33%"/></a>
 
+- **JLPT:**
 
+    <a href=""> <img src="Certificates/JLPT/JLPT-N3.jpg" width="33%"/></a>
