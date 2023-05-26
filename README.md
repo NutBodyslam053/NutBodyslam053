@@ -2,7 +2,7 @@
 
 <h3 align="left">About</h3>
 
-I am currently studying for my Master's in Big Data Engineering. My skill sets include SQL, Google Sheets, Python, Microsoft Excel, Git, Bash, Docker, PySpark, Airflow, and Google Cloud. I have previous experience in data cleansing, and data manipulation with Python at a tech start-up company focused on OCR technology, where I worked closely with data scientists to drive data-driven decision making. I am currently seeking a data engineer role where I can utilize my skills and experience to make a positive impact.
+Master's student in Big Data Engineering with a track record in data exploration, cleansing, transformation, and visualization. Skilled in Python automation and experienced in collaborating with data scientists and supporting data-driven decision making. Seeking a role to leverage skills and drive positive impact through data analysis.
 
 - 🧠 I’m currently learning **Data Science, Data Engineering, and Japanese.**
 
@@ -55,6 +55,7 @@ I am currently studying for my Master's in Big Data Engineering. My skill sets i
     <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" height="40"/>
     <img src="https://github.com/scikit-learn/scikit-learn/raw/main/doc/logos/scikit-learn-logo-without-subtitle.svg" height="40"/>
     <img src="https://www.gstatic.com/devrel-devsite/prod/v80bae38ba58d74b96b4842131d88ee335fbea404678aa063008110db834e2268/tensorflow/images/lockup.svg" height="40"/>
+    <img src="https://raw.githubusercontent.com/pola-rs/polars-static/master/web/polars-logo-python.svg" height="40"/>
 
 - **Database Management Systems:**
 
