@@ -13,15 +13,19 @@ Master's student in Big Data Engineering with a track record in data exploration
     -  Python:
         - [Sales Data Analytics for Motorcycle Report](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Python/reporting_on_sale_data.ipynb)
         - [Google Trends Analytics for Smartphone Report :: [ *Google Trends -> Google Sheets -> Looker* ]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/GoogleTrands/GoogleTrends-smartphone.ipynb)
+    -  Automation:
+        - [Python Automation Tasks](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/AutomationTasks/automation_tasks.ipynb)
     - Looker:
         - [Generating a report by connecting data from *GoogleSheets*](https://lookerstudio.google.com/u/0/reporting/743d4b2c-484f-4a25-8559-ce61c9318bf4/page/dlwOD)
         - [Generating a report by connecting data from *BigQuery*](https://lookerstudio.google.com/reporting/5b79a5f1-8678-4b13-9cd2-f43c39f2ef75)
 
 - 👨‍🔬 **My Data Science Projects:**
     -  Machine Learning:
-        -  [Linear Regression :: *Car price prediction*](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/01-LinearRegression/01-carprice.ipynb)
-        -  [Logistic Regression :: *Customer churn prediction*](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/02-LogisticRegression/02-churn.ipynb)
-        -  [Classification Tree :: *Credit scoring*](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/04-ClassificationTree/04-credit_scoring.ipynb)
+        -  [Linear Regression :: *Car Price Prediction*](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/01-LinearRegression/01-carprice.ipynb)
+        -  [Logistic Regression :: *Customer Churn Prediction*](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/02-LogisticRegression/02-churn.ipynb)
+        -  [Classification Tree :: *Credit Scoring*](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/03-ClassificationTree/03-credit_scoring.ipynb)
+    -  Deep Learning:
+        -  [CNN :: *Image Classification*](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/04-DeepLearning/04-DeepLearning.ipynb)
 
 - 👷‍♂️ **My Data Engineering Projects:**
     - Docker:
@@ -75,7 +79,7 @@ Master's student in Big Data Engineering with a track record in data exploration
 - **Big Data Processing Frameworks:**
 
     <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Hadoop_logo.svg" height="40"/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Apache_Hive_logo.svg" height="40"/>
+    <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Apache_Hive_logo.svg" height="40"/> -->
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" height="40"/>
 
 - **Containerization & Orchestration Tools:**
@@ -88,7 +92,7 @@ Master's student in Big Data Engineering with a track record in data exploration
 
     <img src="https://seeklogo.com/images/G/google-cloud-logo-ADE788217F-seeklogo.com.png" height="40"/>
     <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/azure/azure-original.svg" height="40"/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" height="40"/>
+    <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" height="40"/> -->
 
 - **IDE & Version Control Tools:** 
 
@@ -101,6 +105,13 @@ Master's student in Big Data Engineering with a track record in data exploration
     <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg" height="40"/>
 
 <h3 align="left">Licenses & certifications:</h3>
+
+- **Microsoft:**
+
+    <a href="https://learn.microsoft.com/en-us/users/witchakornwanasanwongkot-5806/certifications"> <img src="Certificates/Microsoft/microsoft-certified-azure-fundamentals.png" width="10%"/></a>
+    <a href="https://learn.microsoft.com/en-us/users/witchakornwanasanwongkot-5806/certifications"> <img src="Certificates/Microsoft/microsoft-certified-azure-data-fundamentals.png" width="10%"/></a>
+    <a href="https://learn.microsoft.com/en-us/users/witchakornwanasanwongkot-5806/certifications"> <img src="Certificates/Microsoft/microsoft-certified-azure-ai-fundamentals.png" width="10%"/></a>
+    <a href="https://learn.microsoft.com/en-us/users/witchakornwanasanwongkot-5806/certifications"> <img src="Certificates/Microsoft/microsoft-certified-power-platform-fundamentals.png" width="10%"/></a>
 
 - **HackerRank:**
 
