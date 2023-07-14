@@ -98,6 +98,7 @@ Master's student in Big Data Engineering with a track record in data exploration
 
     <img src="https://jupyter.org/assets/homepage/main-logo.svg" height="40"/> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" height="40"/> 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Vimlogo.svg" height="40"/> 
     <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg" height="40"/>
     <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Gnu-bash-logo.svg" height="40"/> -->
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/PowerShell_Core_6.0_icon.png" height="40"/>
@@ -126,6 +127,7 @@ Master's student in Big Data Engineering with a track record in data exploration
 - **Coursera:**
 
     <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/B2WRX4EMCXUP"> <img src="Certificates/Coursera/coursera-google_data_analytics.png" width="33%"/></a>
+    <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JGTX429GU7JF"> <img src="Certificates/Coursera/coursera-google_business_intelligence.png" width="33%"/></a>
 
 - **JLPT:**
 
