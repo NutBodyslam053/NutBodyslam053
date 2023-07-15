@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, My name is Witchakorn Wanasanwongkot</h1>
+<h1 align="center">Hi 👋🏻, My name is Witchakorn Wanasanwongkot</h1>
 
 <h3 align="left">About</h3>
 
