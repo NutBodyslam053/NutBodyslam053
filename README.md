@@ -90,8 +90,10 @@ Master's student in Big Data Engineering with a track record in data exploration
 
 - **Cloud Platforms:** 
 
-    <img src="https://seeklogo.com/images/G/google-cloud-logo-ADE788217F-seeklogo.com.png" height="40"/>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/azure/azure-original.svg" height="40"/>
+    <!-- <img src="https://seeklogo.com/images/G/google-cloud-logo-ADE788217F-seeklogo.com.png" height="40"/> -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg" height="40"/>
+    <!-- <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/azure/azure-original.svg" height="40"/> -->
+    <img src="https://www.datocms-assets.com/2885/1651788042-csp-microsoft-azure-partner-logotype.svg" height="40"/>
     <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" height="40"/> -->
 
 - **IDE & Version Control Tools:** 
@@ -129,7 +131,7 @@ Master's student in Big Data Engineering with a track record in data exploration
 - **DataCamp:**
 
     <a href="https://www.datacamp.com/statement-of-accomplishment/track/65e86c8c071eae3ad624db674cf86470911fc765?raw=1"> <img src="Certificates/DataCamp/datacamp-data_engineer.png" width="33%"/></a>
-    
+
 - **JLPT:**
 
     <a href=""> <img src="Certificates/JLPT/JLPT-N3.jpg" width="33%"/></a>
