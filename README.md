@@ -120,15 +120,16 @@ Master's student in Big Data Engineering with a track record in data exploration
     <a href="https://www.hackerrank.com/certificates/81fb347a6c05"> <img src="Certificates/HackerRank/hackerrank-python_basic.png" width="33%"/></a>
     <a href="https://www.hackerrank.com/certificates/39ff3dd8f5f2"> <img src="Certificates/HackerRank/hackerrank-sql_intermediate.png" width="33%"/></a>
 
-- **DataCamp:**
-
-    <a href="https://www.datacamp.com/statement-of-accomplishment/track/65e86c8c071eae3ad624db674cf86470911fc765?raw=1"> <img src="Certificates/DataCamp/datacamp-data_engineer.png" width="33%"/></a>
 
 - **Coursera:**
 
     <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/B2WRX4EMCXUP"> <img src="Certificates/Coursera/coursera-google_data_analytics.png" width="33%"/></a>
     <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JGTX429GU7JF"> <img src="Certificates/Coursera/coursera-google_business_intelligence.png" width="33%"/></a>
 
+- **DataCamp:**
+
+    <a href="https://www.datacamp.com/statement-of-accomplishment/track/65e86c8c071eae3ad624db674cf86470911fc765?raw=1"> <img src="Certificates/DataCamp/datacamp-data_engineer.png" width="33%"/></a>
+    
 - **JLPT:**
 
     <a href=""> <img src="Certificates/JLPT/JLPT-N3.jpg" width="33%"/></a>
