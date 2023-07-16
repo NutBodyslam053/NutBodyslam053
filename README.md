@@ -38,6 +38,8 @@ Master's student in Big Data Engineering with a track record in data exploration
         - [ETL workflow :: [ *Database, Web -> Google Cloud Storage -> BigQuery* ]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Airflow/start_ws5_gcs_to_bq.py)
     - Spark:
         - [Manipulating data with *PySpark*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Spark/PySpark.ipynb)
+    - IoT:
+        - [ESP32 + Blynk IoT Platform](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/IoT/BD526-Project_ESP32%2BBlynk.pdf)
 
 <h3 align="left">Languages and Tools:</h3>
 
