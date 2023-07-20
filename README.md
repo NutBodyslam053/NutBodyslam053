@@ -7,17 +7,19 @@ Master's student in Big Data Engineering with a track record in data exploration
 - 🧠 I’m currently learning **Data Science, Data Engineering, and Japanese.**
 
 - 👨‍💻 **My Data Analytics Projects:**
-    -  SQL:
+    -  Database:
         - [SQLite :: *Chinook*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/SQL/sqlite-chinook.ipynb)
         - [MySQL :: *Sakila*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/SQL/mysql-sakila.ipynb)
-    -  Python:
-        - [Sales Data Analytics for Motorcycle Report](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Python/reporting_on_sale_data.ipynb)
-        - [Google Trends Analytics for Smartphone Report :: [ *Google Trends -> Google Sheets -> Looker* ]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/GoogleTrands/GoogleTrends-smartphone.ipynb)
+        - [MongoDB :: *IMDb*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/MongoDB/mongodb.ipynb)
+    -  Programing Language:
+        - [Python :: Sales Data Analytics for Motorcycle Report](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Python/reporting_on_sale_data.ipynb)
+        - [Python :: Google Trends Analytics for Smartphone Report :: [ *Google Trends -> Google Sheets -> Looker* ]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/GoogleTrands/GoogleTrends-smartphone.ipynb)
     -  Automation:
         - [Python Automation Tasks](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/AutomationTasks/automation_tasks.ipynb)
-    - Looker:
-        - [Generating a report by connecting data from *GoogleSheets*](https://lookerstudio.google.com/u/0/reporting/743d4b2c-484f-4a25-8559-ce61c9318bf4/page/dlwOD)
-        - [Generating a report by connecting data from *BigQuery*](https://lookerstudio.google.com/reporting/5b79a5f1-8678-4b13-9cd2-f43c39f2ef75)
+        - [Web Scraping :: *BeautifulSoup*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/WebScraping/web_scraping-beaufiful_soup.ipynb)
+    - Visualization:
+        - [Looker :: Generating a report by connecting data from *GoogleSheets*](https://lookerstudio.google.com/u/0/reporting/743d4b2c-484f-4a25-8559-ce61c9318bf4/page/dlwOD)
+        - [Looker :: Generating a report by connecting data from *BigQuery*](https://lookerstudio.google.com/reporting/5b79a5f1-8678-4b13-9cd2-f43c39f2ef75)
 
 - 👨‍🔬 **My Data Science Projects:**
     -  Machine Learning:
@@ -107,7 +109,8 @@ Master's student in Big Data Engineering with a track record in data exploration
     <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Gnu-bash-logo.svg" height="40"/> -->
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/PowerShell_Core_6.0_icon.png" height="40"/>
     <img src="https://git-scm.com/images/logo@2x.png" height="40"/> 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg" height="40"/>
+    <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg" height="40"/> -->
+    <img src="https://freelogopng.com/images/all_img/1681039182chatgpt-logo-with-name.png" height="40"/>
 
 <h3 align="left">Licenses & certifications:</h3>
 
