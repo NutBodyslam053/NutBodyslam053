@@ -137,6 +137,10 @@ Master's student in Big Data Engineering with a track record in data exploration
 
     <a href="https://www.datacamp.com/statement-of-accomplishment/track/65e86c8c071eae3ad624db674cf86470911fc765?raw=1"> <img src="Certificates/DataCamp/datacamp-data_engineer.png" width="33%"/></a>
 
+- **Jumpbox:**
+
+    <a href=""> <img src="Certificates/Jumpbox/Jumpbox-cloud_native_practitioner_fundamental.png" width="33%"/></a>
+
 - **JLPT:**
 
     <a href=""> <img src="Certificates/JLPT/JLPT-N3.jpg" width="33%"/></a>
