@@ -16,7 +16,8 @@ Master's student in Big Data Engineering with a track record in data exploration
         - [Python :: Google Trends Analytics for Smartphone Report :: [ *Google Trends -> Google Sheets -> Looker* ]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/GoogleTrands/GoogleTrends-smartphone.ipynb)
     -  Automation:
         - [Python Automation Tasks](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/AutomationTasks/automation_tasks.ipynb)
-        - [Web Scraping :: *BeautifulSoup*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/WebScraping/web_scraping-beaufiful_soup.ipynb)
+        - [Web Scraping :: Scraping job posting with *BeautifulSoup*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/WebScraping/web_scraping-beautiful_soup.ipynb)
+        - [Web Scraping :: Scraping football betting statistics with *Selenium*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/WebScraping/web_scraping-selenium.ipynb)
     - Visualization:
         - [Looker :: Generating a report by connecting data from *GoogleSheets*](https://lookerstudio.google.com/u/0/reporting/743d4b2c-484f-4a25-8559-ce61c9318bf4/page/dlwOD)
         - [Looker :: Generating a report by connecting data from *BigQuery*](https://lookerstudio.google.com/reporting/5b79a5f1-8678-4b13-9cd2-f43c39f2ef75)
