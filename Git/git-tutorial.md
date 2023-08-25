@@ -53,11 +53,9 @@ git diff -r HEAD
 ```
 # Chapter2
 ## Commit structure
-```bash
 | Commit | Tree | Blob |
 | :---: | :---: | :---: |
 | commit_id | files | contents |
-```
 
 ## Git log
 ```bash
