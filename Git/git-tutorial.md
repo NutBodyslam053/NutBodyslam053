@@ -175,11 +175,11 @@ git remote add <name> <repository_url>
         - aaa
     ```
     - index.html
-      ```
+    ```
       <div>Hello<div>
       <div>World<div>  branch: quick-test >> # git commit -am "add World"
       <div>There<div>  branch: main >> # git commit -am "add There"
-      ```
+    ```
     - image.jpg
   - branch:
     - main
