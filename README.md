@@ -13,7 +13,7 @@ Master's student in Big Data Engineering with a track record in data exploration
         - [MongoDB :: *IMDb*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/MongoDB/mongodb.ipynb)
     -  Programing Language:
         - [Python :: Sales Data Analytics for Motorcycle Report](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Python/reporting_on_sale_data.ipynb)
-        - [Python :: Google Trends Analytics for Smartphone Report :: [ *Google Trends -> Google Sheets -> Looker* ]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/GoogleTrands/GoogleTrends-smartphone.ipynb)
+        - [Python :: Google Trends Analytics for Smartphone Report :: [ *Google Trends → Google Sheets → Looker* ]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/GoogleTrands/GoogleTrends-smartphone.ipynb)
     -  Automation:
         - [Python Automation Tasks](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/AutomationTasks/automation_tasks.ipynb)
         - [Web Scraping :: Scraping Job Postings with *BeautifulSoup*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/WebScraping/web_scraping-beautiful_soup.ipynb)
@@ -35,13 +35,13 @@ Master's student in Big Data Engineering with a track record in data exploration
 
 - 👷‍♂️ **My Data Engineering Projects:**
     - Docker:
-        - [Ingesting data into a PostgreSQL database running on Docker :: [ *Web -> PostgreSQL* ]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/2_docker_sql/ingest-data.py)
+        - [Ingesting data into a PostgreSQL database running on Docker :: [ *Web → PostgreSQL* ]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/2_docker_sql/ingest-data.py)
     - Prefect:
-        - [Ingesting data into a PostgreSQL database running on Local :: [ *Web -> PostgreSQL* ]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/01_start/ingest-data-prefect.py)
-        - [ETL workflow :: [ *Web -> Local -> Google Cloud Storage -> BigQuery* ]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/02_gcp/etl-web_to_gcs_to_bg.py)
+        - [Ingesting data into a PostgreSQL database running on Local :: [ *Web → PostgreSQL* ]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/01_start/ingest-data-prefect.py)
+        - [ETL workflow :: [ *Web → Local → Google Cloud Storage → BigQuery* ]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/02_gcp/etl-web_to_gcs_to_bg.py)
         - [Parameterizing Flow & Deployments](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/03_deployments/parameterized_flow.py)
     - Airflow:
-        - [ETL workflow :: [ *Database, Web -> Google Cloud Storage -> BigQuery* ]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Airflow/start_ws5_gcs_to_bq.py)
+        - [ETL workflow :: [ *Database, Web → Google Cloud Storage → BigQuery* ]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Airflow/start_ws5_gcs_to_bq.py)
     - Spark:
         - [Manipulating data with *PySpark*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Spark/PySpark.ipynb)
     - IoT:
@@ -93,8 +93,8 @@ Master's student in Big Data Engineering with a track record in data exploration
 - **Containerization & Orchestration Tools:**
     
     <img src="https://c978d03020deef37dc7e.b-cdn.net/wp-content/uploads/2020/10/horizontal-logo-monochromatic-white.png" height="35"/>
-    <img src="https://mlflow.org/images/MLflow-logo-final-white-TM.png" height="35"/>
     <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png" height="35"/>
+    <img src="https://mlflow.org/images/MLflow-logo-final-white-TM.png" height="35"/>
     <img src="https://assets-global.website-files.com/61e8494b1e8e024a7113bd50/6324805f9ce8603d6c1d7c6d_prefect-logo-gradient-white.png" height="35"/>
 
 - **Cloud Platforms:** 
@@ -135,8 +135,8 @@ Master's student in Big Data Engineering with a track record in data exploration
 
 - **Coursera:**
 
-    <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/B2WRX4EMCXUP"> <img src="Certificates/Coursera/coursera-google_data_analytics.png" width="33%"/></a>
     <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JGTX429GU7JF"> <img src="Certificates/Coursera/coursera-google_business_intelligence.png" width="33%"/></a>
+    <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JEEKHUK66YYR"> <img src="Certificates/Coursera/coursera-google_advanced_data_analytics.png" width="33%"/></a>
 
 - **DataCamp:**
 
