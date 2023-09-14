@@ -58,7 +58,6 @@ Master's student in Big Data Engineering with a track record in data exploration
     <img src="https://github.com/scikit-learn/scikit-learn/raw/main/doc/logos/scikit-learn-logo-without-subtitle.svg" height="35"/>
     <img src="https://www.gstatic.com/devrel-devsite/prod/v80bae38ba58d74b96b4842131d88ee335fbea404678aa063008110db834e2268/tensorflow/images/lockup.svg" height="35"/> -->
 
-
     <img src="https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png" height="35"/>
     <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/pandas/pandas-original.svg" height="35"/>
     <img src="https://seeklogo.com/images/N/numpy-logo-479C24EC79-seeklogo.com.png" height="35"/>
@@ -79,10 +78,14 @@ Master's student in Big Data Engineering with a track record in data exploration
 
 - **Data Visualization Tools:**
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Google_Sheets_logo_%282014-2020%29.svg/1498px-Google_Sheets_logo_%282014-2020%29.svg.png" height="35"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Google_Docs_logo_%282014-2020%29.svg" height="35"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Google_Sheets_logo_%282014-2020%29.svg" height="35"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Google_Slides_logo_%282014-2020%29.svg" height="35"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" height="35"/>
     <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" height="35"/>
     <img src="https://valiotti.com/wp-content/uploads/2022/10/lookerstudiogoogle.svg" height="35"/>
     <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Looker.svg" height="35"/> -->
+    
 
 - **Big Data Processing Frameworks:**
 
@@ -96,6 +99,7 @@ Master's student in Big Data Engineering with a track record in data exploration
     <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png" height="35"/>
     <img src="https://mlflow.org/images/MLflow-logo-final-white-TM.png" height="35"/>
     <img src="https://assets-global.website-files.com/61e8494b1e8e024a7113bd50/6324805f9ce8603d6c1d7c6d_prefect-logo-gradient-white.png" height="35"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Kubernetes_logo.svg" height="35"/>
 
 - **Cloud Platforms:** 
 
@@ -104,18 +108,27 @@ Master's student in Big Data Engineering with a track record in data exploration
     <!-- <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/azure/azure-original.svg" height="35"/> -->
     <img src="https://www.datocms-assets.com/2885/1651788042-csp-microsoft-azure-partner-logotype.svg" height="35"/>
     <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" height="35"/> -->
+    <img src="https://freelogopng.com/images/all_img/1681039182chatgpt-logo-with-name.png" height="35"/>
 
-- **IDE & Version Control Tools:** 
+- **IDE, CLI & Version Control Tools:** 
 
     <img src="https://jupyter.org/assets/homepage/main-logo.svg" height="35"/> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" height="35"/> 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/UbuntuCoF.svg" height="35"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" height="35"/>
+    <img src="https://www.clipartmax.com/png/full/349-3490136_anaconda-icon-anaconda-python-icon.png" height="35"/>
     <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Vimlogo.svg" height="35"/> 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Windows_Terminal_Logo.png" height="35"/>
     <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg" height="35"/>
     <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Gnu-bash-logo.svg" height="35"/> -->
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/PowerShell_Core_6.0_icon.png" height="35"/>
-    <img src="https://git-scm.com/images/logo@2x.png" height="35"/> 
-    <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg" height="35"/> -->
-    <img src="https://freelogopng.com/images/all_img/1681039182chatgpt-logo-with-name.png" height="35"/>
+    <!-- <img src="https://git-scm.com/images/logo@2x.png" height="35"/>  -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg" height="35"/> 
+    <img src="https://static-00.iconduck.com/assets.00/logo-github-icon-256x256-6fb8e1xp.png" height="35"/> 
+    <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/GitHub_logo_2013.svg" height="35"/>  -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" height="35"/> 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg" height="35"/> 
+    
 
 <h3 align="left">Licenses & certifications:</h3>
 
