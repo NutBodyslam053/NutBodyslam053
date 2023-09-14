@@ -66,8 +66,6 @@ Master's student in Big Data Engineering with a track record in data exploration
     <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" height="35"/>
     <img src="https://github.com/scikit-learn/scikit-learn/raw/main/doc/logos/scikit-learn-logo-without-subtitle.svg" height="35"/>
     <img src="https://www.gstatic.com/devrel-devsite/prod/v80bae38ba58d74b96b4842131d88ee335fbea404678aa063008110db834e2268/tensorflow/images/lockup.svg" height="35"/>
-    <img src="https://www.crummy.com/software/BeautifulSoup/10.1.jpg" height="35"/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Selenium_logo.svg" height="35"/>
     <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg" height="35"/>
 
 - **Database Management Systems:**
@@ -76,7 +74,8 @@ Master's student in Big Data Engineering with a track record in data exploration
     <img src="https://icon-library.com/images/postgresql-icon/postgresql-icon-13.jpg" height="35"/>
     <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" height="35"/> -->
     <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Neo4j-logo_color.png" height="35"/> -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" height="35"/>
+    <img src="https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress" height="35"/>
+    <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" height="35"/> -->
 
 - **Data Visualization Tools:**
 
