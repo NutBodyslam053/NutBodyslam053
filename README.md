@@ -39,7 +39,6 @@ Master's student in Big Data Engineering with a track record in data exploration
     - Prefect:
         - [Ingesting data into a PostgreSQL database running on Local :: [ *Web → PostgreSQL* ]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/01_start/ingest-data-prefect.py)
         - [ETL workflow :: [ *Web → Local → Google Cloud Storage → BigQuery* ]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/02_gcp/etl-web_to_gcs_to_bg.py)
-        - [Parameterizing Flow & Deployments](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/03_deployments/parameterized_flow.py)
     - Airflow:
         - [ETL workflow :: [ *Database, Web → Google Cloud Storage → BigQuery* ]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Airflow/start_ws5_gcs_to_bq.py)
     - Spark:
@@ -67,7 +66,9 @@ Master's student in Big Data Engineering with a track record in data exploration
     <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" height="35"/>
     <img src="https://github.com/scikit-learn/scikit-learn/raw/main/doc/logos/scikit-learn-logo-without-subtitle.svg" height="35"/>
     <img src="https://www.gstatic.com/devrel-devsite/prod/v80bae38ba58d74b96b4842131d88ee335fbea404678aa063008110db834e2268/tensorflow/images/lockup.svg" height="35"/>
-    <img src="https://raw.githubusercontent.com/pola-rs/polars-static/master/web/polars-logo-python.svg" height="35"/>
+    <img src="https://www.crummy.com/software/BeautifulSoup/10.1.jpg" height="35"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Selenium_logo.svg" height="35"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg" height="35"/>
 
 - **Database Management Systems:**
 
