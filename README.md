@@ -1,4 +1,5 @@
-<h1 align="center"> <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f30d/512.gif" alt="🌍" width="32" height="32"> <i>Hello, Universe! <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f64c_1f3fb/512.gif" alt="🙌" width="32" height="32"> It's <b>NutBodyslam</b> right here!!!</i> </h1>
+<h1 align="center"> <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f30d/512.gif" alt="🌍" width="32" height="32"> <i>Hello, Universe! <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="32" height="32">  It's <b>NutBodyslam</b> right here!!!</i> <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f64c_1f3fb/512.gif" alt="🙌" width="32" height="32"> </h1>
+
 
 <h3 align="left">About</h3>
 
