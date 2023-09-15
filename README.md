@@ -51,22 +51,22 @@ Master's student in Big Data Engineering with a track record in data exploration
 
 **Programming Languages:**
 
-<!-- <img src="https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png" height="35"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/pandas/pandas-original.svg" height="35"/>
-<img src="https://seeklogo.com/images/N/numpy-logo-479C24EC79-seeklogo.com.png" height="35"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" height="35"/>
-<img src="https://user-images.githubusercontent.com/315810/92161415-9e357100-edfe-11ea-917d-f9e33fd60741.png" height="35"/>
-<img src="https://github.com/scikit-learn/scikit-learn/raw/main/doc/logos/scikit-learn-logo-without-subtitle.svg" height="35"/>
-<img src="https://www.gstatic.com/devrel-devsite/prod/v80bae38ba58d74b96b4842131d88ee335fbea404678aa063008110db834e2268/tensorflow/images/lockup.svg" height="35"/> -->
+  <!-- <img src="https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png" height="35"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/pandas/pandas-original.svg" height="35"/>
+  <img src="https://seeklogo.com/images/N/numpy-logo-479C24EC79-seeklogo.com.png" height="35"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" height="35"/>
+  <img src="https://user-images.githubusercontent.com/315810/92161415-9e357100-edfe-11ea-917d-f9e33fd60741.png" height="35"/>
+  <img src="https://github.com/scikit-learn/scikit-learn/raw/main/doc/logos/scikit-learn-logo-without-subtitle.svg" height="35"/>
+  <img src="https://www.gstatic.com/devrel-devsite/prod/v80bae38ba58d74b96b4842131d88ee335fbea404678aa063008110db834e2268/tensorflow/images/lockup.svg" height="35"/> -->
 
-<img src="https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png" height="35"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/pandas/pandas-original.svg" height="35"/>
-<img src="https://seeklogo.com/images/N/numpy-logo-479C24EC79-seeklogo.com.png" height="35"/>
-<img src="https://matplotlib.org/stable/_static/images/logo2.svg" height="35"/>
-<img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" height="35"/>
-<img src="https://github.com/scikit-learn/scikit-learn/raw/main/doc/logos/scikit-learn-logo-without-subtitle.svg" height="35"/>
-<img src="https://www.gstatic.com/devrel-devsite/prod/v80bae38ba58d74b96b4842131d88ee335fbea404678aa063008110db834e2268/tensorflow/images/lockup.svg" height="35"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg" height="35"/>
+  <img src="https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png" height="35"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/pandas/pandas-original.svg" height="35"/>
+  <img src="https://seeklogo.com/images/N/numpy-logo-479C24EC79-seeklogo.com.png" height="35"/>
+  <img src="https://matplotlib.org/stable/_static/images/logo2.svg" height="35"/>
+  <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" height="35"/>
+  <img src="https://github.com/scikit-learn/scikit-learn/raw/main/doc/logos/scikit-learn-logo-without-subtitle.svg" height="35"/>
+  <img src="https://www.gstatic.com/devrel-devsite/prod/v80bae38ba58d74b96b4842131d88ee335fbea404678aa063008110db834e2268/tensorflow/images/lockup.svg" height="35"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg" height="35"/>
 
 ### Database Management Systems:
 
