@@ -99,7 +99,7 @@ Master's student in Big Data Engineering with a track record in data exploration
     <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png" height="35"/>
     <img src="https://mlflow.org/images/MLflow-logo-final-white-TM.png" height="35"/>
     <img src="https://assets-global.website-files.com/61e8494b1e8e024a7113bd50/6324805f9ce8603d6c1d7c6d_prefect-logo-gradient-white.png" height="35"/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Kubernetes_logo.svg" height="35"/>
+    <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Kubernetes_logo.svg" height="35"/> -->
 
 - **Cloud Platforms:** 
 
