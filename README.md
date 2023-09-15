@@ -49,7 +49,7 @@ Master's student in Big Data Engineering with a track record in data exploration
 
 <h2 align="left">Languages & Tools</h2>
 
-**Programming Languages:**
+- **Programming Languages:**
 
   <!-- <img src="https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png" height="35"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/pandas/pandas-original.svg" height="35"/>
