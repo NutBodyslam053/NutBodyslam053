@@ -70,12 +70,14 @@ Master's student in Big Data Engineering with a track record in data exploration
 
 ### Database Management Systems:
 
-<img src="https://www.vectorlogo.zone/logos/mysql/mysql-official.svg" height="35"/>
-<img src="https://icon-library.com/images/postgresql-icon/postgresql-icon-13.jpg" height="35"/>
-<!-- <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" height="35"/> -->
-<!-- <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Neo4j-logo_color.png" height="35"/> -->
-<img src="https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress" height="35"/>
-<!-- <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" height="35"/> -->
+<p>
+  <img src="https://www.vectorlogo.zone/logos/mysql/mysql-official.svg" height="35"/>
+  <img src="https://icon-library.com/images/postgresql-icon/postgresql-icon-13.jpg" height="35"/>
+  <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" height="35"/> -->
+  <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Neo4j-logo_color.png" height="35"/> -->
+  <img src="https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress" height="35"/>
+  <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" height="35"/> -->
+</p>
 
 ### Data Visualization Tools:
 
