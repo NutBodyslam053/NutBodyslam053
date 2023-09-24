@@ -64,7 +64,7 @@ Master's student in Big Data Engineering with a track record in data exploration
   <img src="https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png" height="35"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/pandas/pandas-original.svg" height="35"/>
   <img src="https://seeklogo.com/images/N/numpy-logo-479C24EC79-seeklogo.com.png" height="35"/>
-  <img src="https://matplotlib.org/stable/_static/images/logo2.svg" height="35"/>
+  <img src="https://matplotlib.org/stable/_static/logo_light.svg" height="35"/>
   <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" height="35"/>
   <img src="https://github.com/scikit-learn/scikit-learn/raw/main/doc/logos/scikit-learn-logo-without-subtitle.svg" height="35"/>
   <img src="https://www.gstatic.com/devrel-devsite/prod/v80bae38ba58d74b96b4842131d88ee335fbea404678aa063008110db834e2268/tensorflow/images/lockup.svg" height="35"/>
