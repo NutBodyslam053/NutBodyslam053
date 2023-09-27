@@ -1,6 +1,5 @@
 # Assignment-2: VPC Subnet Architecture Design
 NutBodyslam053@TCC231019
-vpc subnet architecture design
 
 ## Create subnets (vSwitches) within a VPC with the CIDR range 10.0.0.0/8
 > The CIDR range `10.0.0.0/8` encompasses `16,777,216` IP addresses.
