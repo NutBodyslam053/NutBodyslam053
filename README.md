@@ -9,7 +9,7 @@ Master's student in Big Data Engineering with a track record in data exploration
 
 <h2 align="left">Projects</h2>
 
-### 👨‍💻 **My Data Analytics Projects**
+### 👨🏻‍💻 **My Data Analytics Projects**
 -  **Database**:
     - [SQLite :: *Chinook*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/SQL/sqlite-chinook.ipynb)
     - [MySQL :: *Sakila*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/SQL/mysql-sakila.ipynb)
@@ -26,7 +26,7 @@ Master's student in Big Data Engineering with a track record in data exploration
     - [Looker :: Generating a report by connecting data from *GoogleSheets*](https://lookerstudio.google.com/u/0/reporting/743d4b2c-484f-4a25-8559-ce61c9318bf4/page/dlwOD)
     - [Looker :: Generating a report by connecting data from *BigQuery*](https://lookerstudio.google.com/reporting/5b79a5f1-8678-4b13-9cd2-f43c39f2ef75)
 
-### 👨‍🔬 **My Data Science Projects**
+### 👨🏻‍🔬 **My Data Science Projects**
 -  **Machine Learning**:
     -  [Linear Regression :: *Car Price Prediction*](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/01-LinearRegression/01-carprice.ipynb)
     -  [Logistic Regression :: *Customer Churn Prediction*](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/02-LogisticRegression/02-churn.ipynb)
@@ -36,7 +36,7 @@ Master's student in Big Data Engineering with a track record in data exploration
 -  **MLOps**:
     -  [Deploy Machine Learning Model using *Flask*](https://github.com/NutBodyslam053/bostonhousepricing.git)
 
-### 👷‍♂️ **My Data Engineering Projects**
+### 👷🏻‍♂️ **My Data Engineering Projects**
 - **Docker**:
   - [Ingesting data into a PostgreSQL database running on Docker :: [ *Web → PostgreSQL* ]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/2_docker_sql/ingest-data.py)
 - **Prefect**:
@@ -48,6 +48,11 @@ Master's student in Big Data Engineering with a track record in data exploration
   - [Manipulating data with *PySpark*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Spark/PySpark.ipynb)
 - **IoT**:
   - [ESP32 + Blynk IoT Platform](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/IoT/BD526-Project_ESP32%2BBlynk.pdf)
+
+### 🧑🏻‍🚀 **My Cloud Engineering Projects**
+- **Cloud Native**:
+  - [Cloud-Native Architecture Design](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Cloud/01-cloud-native_architecture_design.md)
+  - [VPC Subnet Architecture Design](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Cloud/02-vpc_subnet_architecture_design.md)
 
 <h2 align="left">Languages & Tools</h2>
 
