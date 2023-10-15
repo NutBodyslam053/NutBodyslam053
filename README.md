@@ -170,8 +170,8 @@ Master's student in Big Data Engineering with a track record in data exploration
 
 ### Jumpbox:
 
-<a href=""> <img src="Certificates/Jumpbox/Jumpbox-cloud_native_practitioner_fundamental.png" width="33%"/></a>
+<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/Jumpbox/Jumpbox-cloud_native_practitioner_fundamental.png"> <img src="Certificates/Jumpbox/Jumpbox-cloud_native_practitioner_fundamental.png" width="33%"/></a>
 
 ### JLPT:
 
-<a href=""> <img src="Certificates/JLPT/JLPT-N3.jpg" width="33%"/></a>
+<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/JLPT/JLPT-N3.jpg"> <img src="Certificates/JLPT/JLPT-N3.jpg" width="33%"/></a>
