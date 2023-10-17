@@ -29,8 +29,8 @@ Master's student in Big Data Engineering with a track record in data exploration
 ### 👨🏻‍🔬 **My Data Science Projects**
 -  **Machine Learning**:
     -  [Linear Regression :: *Car Price Prediction*](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/01-LinearRegression/01-carprice.ipynb)
-    -  [Logistic Regression :: *Customer Churn Prediction*](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/02-LogisticRegression/02-churn.ipynb)
-    -  [Classification Tree :: *Credit Scoring*](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/03-ClassificationTree/03-credit_scoring.ipynb)
+    <!-- -  [Logistic Regression :: *Customer Churn Prediction*](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/02-LogisticRegression/02-churn.ipynb)
+    -  [Classification Tree :: *Credit Scoring*](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/03-ClassificationTree/03-credit_scoring.ipynb) -->
 -  **Deep Learning**:
     -  [CNN :: *Image Classification*](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/04-DeepLearning/04-DeepLearning.ipynb)
 -  **MLOps**:
