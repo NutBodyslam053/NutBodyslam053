@@ -53,7 +53,8 @@ Master's student in Big Data Engineering with a track record in data exploration
 - **Cloud Native**:
   - [Cloud-Native Architecture Design](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Cloud/01-cloud-native_architecture_design.md)
   - [VPC Subnet Architecture Design](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Cloud/02-vpc_subnet_architecture_design.md)
-  - [Containerization Workshop](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Cloud/03-containerization_workshop.md)
+- **Containerization**:
+  - [Containerization Workshop :: *DockerCon 2023*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Cloud/03-containerization_workshop.md)
 
 <h2 align="left">Languages & Tools</h2>
 
