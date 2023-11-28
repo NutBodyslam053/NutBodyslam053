@@ -34,7 +34,7 @@ Master's student in Big Data Engineering with a track record in data exploration
 -  **Deep Learning**:
     -  [CNN :: *Image Classification*](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/04-DeepLearning/04-DeepLearning.ipynb)
 -  **MLOps**:
-    -  [Deploy Machine Learning Model using *Flask*](https://github.com/NutBodyslam053/bostonhousepricing.git)
+    -  [Deploy Machine Learning Model using *Flask*](https://github.com/NutBodyslam053/BD528-software_engineering.git) ✨
 
 ### 👷🏻‍♂️ **My Data Engineering Projects**
 - **Docker**:
@@ -75,7 +75,7 @@ Master's student in Big Data Engineering with a track record in data exploration
   <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" height="35"/>
   <img src="https://github.com/scikit-learn/scikit-learn/raw/main/doc/logos/scikit-learn-logo-without-subtitle.svg" height="35"/>
   <img src="https://www.gstatic.com/devrel-devsite/prod/v80bae38ba58d74b96b4842131d88ee335fbea404678aa063008110db834e2268/tensorflow/images/lockup.svg" height="35"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg" height="35"/>
+  <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg" height="35"/> -->
 </p>
 
 ### Database Management Systems:
@@ -109,10 +109,13 @@ Master's student in Big Data Engineering with a track record in data exploration
 ### Containerization & Orchestration Tools:
 <p>
   <img src="https://c978d03020deef37dc7e.b-cdn.net/wp-content/uploads/2020/10/horizontal-logo-monochromatic-white.png" height="35"/>
+  <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.svg" height="35"/>
+  <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/name_blue.svg" height="35"/>
   <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png" height="35"/>
   <img src="https://mlflow.org/images/MLflow-logo-final-white-TM.png" height="35"/>
-  <img src="https://assets-global.website-files.com/61e8494b1e8e024a7113bd50/6324805f9ce8603d6c1d7c6d_prefect-logo-gradient-white.png" height="35"/>
-  <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Kubernetes_logo.svg" height="35"/> -->
+  <!-- <img src="https://assets-global.website-files.com/61e8494b1e8e024a7113bd50/6324805f9ce8603d6c1d7c6d_prefect-logo-gradient-white.png" height="35"/> -->
+  <img src="https://avatars.githubusercontent.com/u/44036562?s=280&v=4" height="35"/>
+  <img src="https://www.devkuma.com/docs/argo-cd/argo-horizontal-color.png" height="35"/>
 </p>
 
 ### Cloud Platforms:
