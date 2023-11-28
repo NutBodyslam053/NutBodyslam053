@@ -34,7 +34,7 @@ Master's student in Big Data Engineering with a track record in data exploration
 -  **Deep Learning**:
     -  [CNN :: *Image Classification*](https://github.com/NutBodyslam053/MLzoomcamp/blob/main/04-DeepLearning/04-DeepLearning.ipynb)
 -  **MLOps**:
-    -  [Deploy Machine Learning Model using *Flask*](https://github.com/NutBodyslam053/BD528-software_engineering.git) ✨
+    -  [Deploy Machine Learning Model using *Flask* :: [ *Code → GitHub Actions → Docker Hub → ArgoCD → K8s* ]](https://github.com/NutBodyslam053/BD528-software_engineering.git) ✨
 
 ### 👷🏻‍♂️ **My Data Engineering Projects**
 - **Docker**:
