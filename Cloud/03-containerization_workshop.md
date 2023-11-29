@@ -24,7 +24,7 @@ Start a container named `hello-world` that uses the `hello-world` image
 ```powershell
 docker run --name hello-world hello-world
 ```
-![](images/dockercon23/Running_containers-100.png)
+![](Docker/images/dockercon23/Running_containers-100.png)
 
 ### Running containers - 200
 Your challenge
@@ -44,7 +44,7 @@ Start a container that meets the following criteria:
 ```powershell
 docker run --name timer -it --rm ubuntu sleep 30
 ```
-![](images/dockercon23/Running_containers-200.png)
+![](Docker/images/dockercon23/Running_containers-200.png)
 
 ### Running containers - 300
 Your challenge
@@ -62,10 +62,10 @@ Start a container that meets the following criteria:
 ```powershell
 docker run --name nginx -d -p 8080:80 nginx:alpine
 ```
-![](images/dockercon23/Running_containers-300_01.png)
+![](Docker/images/dockercon23/Running_containers-300_01.png)
 
 Nginx:
-![](images/dockercon23/Running_containers-300_02.png)
+![](Docker/images/dockercon23/Running_containers-300_02.png)
 
 ### Running containers - 400
 Your challenge
@@ -86,7 +86,7 @@ docker run --name mysql-container `
   --label training.app=mysql `
   -d mysql
 ```
-![](images/dockercon23/Running_containers-400.png)
+![](Docker/images/dockercon23/Running_containers-400.png)
 
 ### Running containers - 500
 Your challenge
@@ -107,7 +107,7 @@ docker run --name cats-container -d -p 5050:5000 --label training.app=cats `
   --health-retries=3 `
   mikesir87/cats:1.0
 ```
-![](images/dockercon23/Running_containers-500.png)
+![](Docker/images/dockercon23/Running_containers-500.png)
 
 ## Volumes
 
@@ -120,7 +120,7 @@ Create two volumes, one named `volume1` and another `database-files`. That's it.
 docker volume create volume1
 docker volume create database-files
 ```
-![](images/dockercon23/Working_with_volumes-100.png)
+![](Docker/images/dockercon23/Working_with_volumes-100.png)
 
 ### Working with volumes - 200
 Your challenge
@@ -139,10 +139,10 @@ docker run --name mysql-container `
   --label training.app=persistent-db `
   -d mysql
 ```
-![](images/dockercon23/Working_with_volumes-200_01.png)
+![](Docker/images/dockercon23/Working_with_volumes-200_01.png)
 
 Volumes:
-![](images/dockercon23/Working_with_volumes-200_02.png)
+![](Docker/images/dockercon23/Working_with_volumes-200_02.png)
 
 ### Working with volumes - 300
 Your challenge
@@ -167,10 +167,10 @@ docker run --name init-db `
    -v database-initialization:/docker-entrypoint-initdb.d `
    -d mysql
 ```
-![](images/dockercon23/Working_with_volumes-300_01.png)
+![](Docker/images/dockercon23/Working_with_volumes-300_01.png)
 
 Volumes:
-![](images/dockercon23/Working_with_volumes-300_02.png)
+![](Docker/images/dockercon23/Working_with_volumes-300_02.png)
 
 ### Working with volumes - 500
 Your challenge
@@ -202,14 +202,14 @@ docker run --name node-app -it --rm `
    node:lts-alpine `
    yarn dev
 ```
-![](images/dockercon23/Working_with_volumes-500_01.png)
+![](Docker/images/dockercon23/Working_with_volumes-500_01.png)
 
 Application:
-![](images/dockercon23/Working_with_volumes-500_02.png)
+![](Docker/images/dockercon23/Working_with_volumes-500_02.png)
 
-## Images
+## Docker/Images
 
-### Building images - 100
+### Building Docker/images - 100
 Your challenge
 In this challenge, you are going to perform a simple build using a provided Dockerfile.
 
@@ -220,9 +220,9 @@ In this challenge, you are going to perform a simple build using a provided Dock
 ```powershell
 docker build -t first-build .\first-build\
 ```
-![](images/dockercon23/Building_images-100.png)
+![](Docker/images/dockercon23/Docker/Building_images-100.png)
 
-### Building images - 200
+### Building Docker/images - 200
 Your challenge
 In this challenge, you are going to write a simple Dockerfile to containerize a simple Python-based web application.
 
@@ -237,15 +237,15 @@ After building the image, you should be able to run a container, exposing the co
 ```powershell
 docker build -t simple-python-webapp .\simple-python-webapp\
 ```
-![](images/dockercon23/Building_images-200_01.png)
+![](Docker/images/dockercon23/Docker/Building_images-200_01.png)
 
 2. Run a container
 ```powershell
 docker run --name simple-python-webapp -p 5000:5000 simple-python-webapp
 ```
-![](images/dockercon23/Building_images-200_02.png)
+![](Docker/images/dockercon23/Docker/Building_images-200_02.png)
 
-### Building images - 300
+### Building Docker/images - 300
 Your challenge
 In this challenge, you will work on containerizing a simple Node based application so it doesn't use the root user.
 
@@ -260,15 +260,15 @@ After building the image, you should be able to run a container, exposing the co
 ```powershell
 docker build -t nonroot-node-app .\nonroot-node-app\
 ```
-![](images/dockercon23/Building_images-300_01.png)
+![](Docker/images/dockercon23/Docker/Building_images-300_01.png)
 
 2. Run a container
 ```powershell
 docker run --name nonroot-node-app -p 3000:3000 nonroot-node-app
 ```
-![](images/dockercon23/Building_images-300_02.png)
+![](Docker/images/dockercon23/Docker/Building_images-300_02.png)
 
-### Building images - 400
+### Building Docker/images - 400
 Your challenge
 In this challenge, you will build a multi-stage container where one stage builds a React app and the second stage deploys it using nginx. The advantage is that your final image is very small and ships only what's needed to actually run your app (yes... we're ignoring server-side rendering in this example).
 
@@ -283,13 +283,13 @@ After building the image, you should be able to run a container, exposing the co
 ```powershell
 docker build -t multi-stage-react-app .\multi-stage-react-app\
 ```
-![](images/dockercon23/Building_images-400_01.png)
+![](Docker/images/dockercon23/Docker/Building_images-400_01.png)
 
 2. Run a container
 ```powershell
 docker run --name multi-stage-react-app -p 80:80 multi-stage-react-app
 ```
-![](images/dockercon23/Building_images-400_02.png)
+![](Docker/images/dockercon23/Docker/Building_images-400_02.png)
 
 ### Multi-service applications - 100
 Your challenge
@@ -301,7 +301,7 @@ For this challenge, simply create a network named `getting-started`. You can use
 ```powershell
 docker network create getting-started
 ```
-![](images/dockercon23/Multi-service_applications-100.png)
+![](Docker/images/dockercon23/Multi-service_applications-100.png)
 
 ### Multi-service applications - 200
 Your challenge
@@ -325,7 +325,7 @@ docker run --name networked-db `
     -e MYSQL_DATABASE=db `
     -d mysql
 ```
-![](images/dockercon23/Multi-service_applications-200.png)
+![](Docker/images/dockercon23/Multi-service_applications-200.png)
 
 ### Multi-service applications - 300
 Your challenge
@@ -351,7 +351,7 @@ In this challenge, we are going to spin up multiple containers that will communi
 ```powershell
 docker network create wordpress
 ```
-![](images/dockercon23/Multi-service_applications-300_00.png)
+![](Docker/images/dockercon23/Multi-service_applications-300_00.png)
 
 2. Create a database container
 ```powershell
@@ -373,10 +373,10 @@ docker run --name wordpress-site `
     -e WORDPRESS_DB_PASSWORD=secret `
     -d wordpress:6-apache
 ```
-![](images/dockercon23/Multi-service_applications-300_01.png)
+![](Docker/images/dockercon23/Multi-service_applications-300_01.png)
 
 Wordpress:
-![](images/dockercon23/Multi-service_applications-300_02.png)
+![](Docker/images/dockercon23/Multi-service_applications-300_02.png)
 
 ### Multi-service applications - 500
 Your challenge
@@ -400,19 +400,19 @@ docker-compose -f .\multi-deploy-compose\app-cats\compose.yaml `
     -f .\multi-deploy-compose\app-dogs\compose.yaml `
     -f .\multi-deploy-compose\proxy\compose.yaml up -d
 ```
-![](images/dockercon23/Multi-service_applications-500_01.png)
+![](Docker/images/dockercon23/Multi-service_applications-500_01.png)
 
 Cats-app:
-![](images/dockercon23/Multi-service_applications-500_02_cats.png)
+![](Docker/images/dockercon23/Multi-service_applications-500_02_cats.png)
 
 Dogs-app:
-![](images/dockercon23/Multi-service_applications-500_03_dogs.png)
+![](Docker/images/dockercon23/Multi-service_applications-500_03_dogs.png)
 
 Whales-app:
-![](images/dockercon23/Multi-service_applications-500_04_whales.png)
+![](Docker/images/dockercon23/Multi-service_applications-500_04_whales.png)
 
 Traefik:
-![](images/dockercon23/Multi-service_applications-500_05_traefik.png)
+![](Docker/images/dockercon23/Multi-service_applications-500_05_traefik.png)
 
 ### Multi-service applications - 600
 Your challenge
@@ -428,7 +428,7 @@ After it's up and running, you should be able to open http://localhost:3000 and 
 ```powershell
 docker-compose -f .\compose-project\compose.yaml up -d
 ```
-![](images/dockercon23/Multi-service_applications-600_01.png)
+![](Docker/images/dockercon23/Multi-service_applications-600_01.png)
 
 Application:
-![](images/dockercon23/Multi-service_applications-600_02.png)
+![](Docker/images/dockercon23/Multi-service_applications-600_02.png)
