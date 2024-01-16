@@ -1,6 +1,6 @@
-<!-- <h1 align="center"> <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f30d/512.gif" alt="🌍" width="32" height="32"> <i>Hello, Universe! <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="32" height="32">  It's <b>NutBodyslam</b> right here!!!</i> <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f64c_1f3fb/512.gif" alt="🙌" width="32" height="32"> </h1> -->
+<h1 align="center"> <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f30d/512.gif" alt="🌍" width="32" height="32"> <i>Hello, Universe! <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="32" height="32">  It's <b>NutBodyslam</b> right here!!!</i> <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f64c_1f3fb/512.gif" alt="🙌" width="32" height="32"> </h1>
 
-<h1 align="center"> 🌏 <i>Hello, Universe! 🚀 It's <b>NutBodyslam</b> right here!!!</i> 👎🏻</h1>
+<!-- <h1 align="center"> 🌏 <i>Hello, Universe! 🚀 It's <b>NutBodyslam</b> right here!!!</i> 👎🏻</h1> -->
 
 
 <h2 align="left">About</h2>
@@ -169,13 +169,14 @@ Master's student in Big Data Engineering with a track record in data exploration
 <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JGTX429GU7JF"> <img src="Certificates/Coursera/coursera-google_business_intelligence.png" width="33%"/></a>
 <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JEEKHUK66YYR"> <img src="Certificates/Coursera/coursera-google_advanced_data_analytics.png" width="33%"/></a>
 
-### DataCamp:
-
-<a href="https://www.datacamp.com/statement-of-accomplishment/track/10b0abecea6acaa5788f6d55e2b368ffce5a1184"> <img src="Certificates/DataCamp/datacamp-data_engineer2.png" width="33%"/></a>
-
 ### Jumpbox:
 
 <a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/Jumpbox/Jumpbox-cloud_native_practitioner_fundamental.png"> <img src="Certificates/Jumpbox/Jumpbox-cloud_native_practitioner_fundamental.png" width="33%"/></a>
+<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/Jumpbox/Jumpbox-cloud_native_associate.png"> <img src="Certificates/Jumpbox/Jumpbox-cloud_native_associate.png" width="33%"/></a>
+
+### DataCamp:
+
+<a href="https://www.datacamp.com/statement-of-accomplishment/track/10b0abecea6acaa5788f6d55e2b368ffce5a1184"> <img src="Certificates/DataCamp/datacamp-data_engineer2.png" width="33%"/></a>
 
 ### JLPT:
 
