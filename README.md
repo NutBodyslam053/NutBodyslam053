@@ -152,10 +152,10 @@ Master's student in Big Data Engineering with a track record in data exploration
 
 ### Microsoft:
 
-<a href="https://learn.microsoft.com/en-us/users/witchakornwanasanwongkot-5806/certifications"> <img src="Certificates/Microsoft/microsoft-certified-azure-fundamentals.png" width="10%"/></a>
-<a href="https://learn.microsoft.com/en-us/users/witchakornwanasanwongkot-5806/certifications"> <img src="Certificates/Microsoft/microsoft-certified-azure-data-fundamentals.png" width="10%"/></a>
-<a href="https://learn.microsoft.com/en-us/users/witchakornwanasanwongkot-5806/certifications"> <img src="Certificates/Microsoft/microsoft-certified-azure-ai-fundamentals.png" width="10%"/></a>
-<a href="https://learn.microsoft.com/en-us/users/witchakornwanasanwongkot-5806/certifications"> <img src="Certificates/Microsoft/microsoft-certified-power-platform-fundamentals.png" width="10%"/></a>
+<a href="https://learn.microsoft.com/en-us/users/witchakornwanasanwongkot-5806/credentials/certifications?tab=credentials-tab"> <img src="Certificates/Microsoft/microsoft-certified-azure-fundamentals.png" width="10%"/></a>
+<a href="https://learn.microsoft.com/en-us/users/witchakornwanasanwongkot-5806/credentials/certifications?tab=credentials-tab"> <img src="Certificates/Microsoft/microsoft-certified-azure-data-fundamentals.png" width="10%"/></a>
+<a href="https://learn.microsoft.com/en-us/users/witchakornwanasanwongkot-5806/credentials/certifications?tab=credentials-tab"> <img src="Certificates/Microsoft/microsoft-certified-azure-ai-fundamentals.png" width="10%"/></a>
+<a href="https://learn.microsoft.com/en-us/users/witchakornwanasanwongkot-5806/credentials/certifications?tab=credentials-tab"> <img src="Certificates/Microsoft/microsoft-certified-power-platform-fundamentals.png" width="10%"/></a>
 
 ### HackerRank:
 
