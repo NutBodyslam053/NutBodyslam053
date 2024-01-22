@@ -55,6 +55,8 @@ Master's student in Big Data Engineering with a track record in data exploration
   - [VPC Subnet Architecture Design](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Cloud/02-vpc_subnet_architecture_design.md)
 - **Containerization**:
   - [Containerization Workshop :: *DockerCon 2023*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Cloud/03-containerization_workshop.md) ✨
+- **Container Orchestration**:
+  - [Kubernetes Fundamental](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Cloud/Kubernetes/04-kubernetes_fundamental.md) ✨
 
 <h2 align="left">Languages & Tools</h2>
 
