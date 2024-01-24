@@ -165,16 +165,16 @@ Master's student in Big Data Engineering with a track record in data exploration
 <a href="https://www.hackerrank.com/certificates/81fb347a6c05"> <img src="Certificates/HackerRank/hackerrank-python_basic.png" width="33%"/></a>
 <a href="https://www.hackerrank.com/certificates/39ff3dd8f5f2"> <img src="Certificates/HackerRank/hackerrank-sql_intermediate.png" width="33%"/></a>
 
+### Jumpbox:
+
+<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/Jumpbox/Jumpbox-cloud_native_practitioner_fundamental.png"> <img src="Certificates/Jumpbox/Jumpbox-cloud_native_practitioner_fundamental.png" width="33%"/></a>
+<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/Jumpbox/Jumpbox-cloud_native_associate.png"> <img src="Certificates/Jumpbox/Jumpbox-cloud_native_associate.png" width="33%"/></a>
+<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/Jumpbox/Jumpbox-the_cloud_camp_2023.png"> <img src="Certificates/Jumpbox/Jumpbox-cloud_native_associate.png" width="33%"/></a>
 
 ### Coursera:
 
 <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JGTX429GU7JF"> <img src="Certificates/Coursera/coursera-google_business_intelligence.png" width="33%"/></a>
 <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JEEKHUK66YYR"> <img src="Certificates/Coursera/coursera-google_advanced_data_analytics.png" width="33%"/></a>
-
-### Jumpbox:
-
-<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/Jumpbox/Jumpbox-cloud_native_practitioner_fundamental.png"> <img src="Certificates/Jumpbox/Jumpbox-cloud_native_practitioner_fundamental.png" width="33%"/></a>
-<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/Jumpbox/Jumpbox-cloud_native_associate.png"> <img src="Certificates/Jumpbox/Jumpbox-cloud_native_associate.png" width="33%"/></a>
 
 ### DataCamp:
 
