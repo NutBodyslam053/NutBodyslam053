@@ -87,30 +87,30 @@ Data Engineer with a proven ability to design, build, and maintain scalable data
 
 ### HackerRank:
 
-<a href="https://www.hackerrank.com/certificates/441eeb7976d6"> <img src="Certificates/HackerRank/hackerrank-problem_solving_basic.png" width="32.99%"/></a>
-<a href="https://www.hackerrank.com/certificates/81fb347a6c05"> <img src="Certificates/HackerRank/hackerrank-python_basic.png" width="32.99%"/></a>
-<a href="https://www.hackerrank.com/certificates/39ff3dd8f5f2"> <img src="Certificates/HackerRank/hackerrank-sql_intermediate.png" width="32.99%"/></a>
+<a href="https://www.hackerrank.com/certificates/441eeb7976d6"> <img src="Certificates/HackerRank/hackerrank-problem_solving_basic.png" width="33%"/></a>
+<a href="https://www.hackerrank.com/certificates/81fb347a6c05"> <img src="Certificates/HackerRank/hackerrank-python_basic.png" width="33%"/></a>
+<a href="https://www.hackerrank.com/certificates/39ff3dd8f5f2"> <img src="Certificates/HackerRank/hackerrank-sql_intermediate.png" width="33%"/></a>
 
 ### Jumpbox:
 
-<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/Jumpbox/Jumpbox-cloud_native_practitioner_fundamental.png"> <img src="Certificates/Jumpbox/Jumpbox-cloud_native_practitioner_fundamental.png" width="32.99%"/></a>
-<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/Jumpbox/Jumpbox-cloud_native_associate.png"> <img src="Certificates/Jumpbox/Jumpbox-cloud_native_associate.png" width="32.99%"/></a>
-<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/Jumpbox/Jumpbox-the_cloud_camp_2023.png"> <img src="Certificates/Jumpbox/Jumpbox-the_cloud_camp_2023.png" width="32.99%"/></a>
+<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/Jumpbox/Jumpbox-cloud_native_practitioner_fundamental.png"> <img src="Certificates/Jumpbox/Jumpbox-cloud_native_practitioner_fundamental.png" width="33%"/></a>
+<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/Jumpbox/Jumpbox-cloud_native_associate.png"> <img src="Certificates/Jumpbox/Jumpbox-cloud_native_associate.png" width="33%"/></a>
+<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/Jumpbox/Jumpbox-the_cloud_camp_2023.png"> <img src="Certificates/Jumpbox/Jumpbox-the_cloud_camp_2023.png" width="33%"/></a>
 
 ### Coursera:
 
-<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JGTX429GU7JF"> <img src="Certificates/Coursera/coursera-google_business_intelligence.png" width="32.99%"/></a>
-<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JEEKHUK66YYR"> <img src="Certificates/Coursera/coursera-google_advanced_data_analytics.png" width="32.99%"/></a>
+<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JGTX429GU7JF"> <img src="Certificates/Coursera/coursera-google_business_intelligence.png" width="33%"/></a>
+<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JEEKHUK66YYR"> <img src="Certificates/Coursera/coursera-google_advanced_data_analytics.png" width="33%"/></a>
 
 ### Astronomer:
 
-<a href=""> <img src="Certificates/Astronomer/AstronomerCertificationforApacheAirflowFundamentals.png" width="32.99%"/></a>
-<a href=""> <img src="Certificates/Astronomer/AstronomerCertificationDAGAuthoringforApacheAirflow.png" width="32.99%"/></a>
+<a href=""> <img src="Certificates/Astronomer/AstronomerCertificationforApacheAirflowFundamentals.png" width="33%"/></a>
+<a href=""> <img src="Certificates/Astronomer/AstronomerCertificationDAGAuthoringforApacheAirflow.png" width="33%"/></a>
 
 ### DataCamp:
 
-<a href="https://www.datacamp.com/statement-of-accomplishment/track/10b0abecea6acaa5788f6d55e2b368ffce5a1184"> <img src="Certificates/DataCamp/datacamp-data_engineer2.png" width="32.99%"/></a>
+<a href="https://www.datacamp.com/statement-of-accomplishment/track/10b0abecea6acaa5788f6d55e2b368ffce5a1184"> <img src="Certificates/DataCamp/datacamp-data_engineer2.png" width="33%"/></a>
 
 ### JLPT:
 
-<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/JLPT/JLPT-N3.jpg"> <img src="Certificates/JLPT/JLPT-N3.jpg" width="32.99%"/></a>
+<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/JLPT/JLPT-N3.jpg"> <img src="Certificates/JLPT/JLPT-N3.jpg" width="33%"/></a>
