@@ -58,99 +58,25 @@ Master's student in Big Data Engineering with a track record in data exploration
 - **Container Orchestration**:
   - [Kubernetes Fundamental](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Cloud/Kubernetes/04-kubernetes_fundamental.md) ✨
 
-<h2 align="left">Languages & Tools</h2>
+<h2 align="left">Tools</h2>
 
-### Programming Languages:
-<p>
-  <!-- <img src="https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png" height="35"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/pandas/pandas-original.svg" height="35"/>
-  <img src="https://seeklogo.com/images/N/numpy-logo-479C24EC79-seeklogo.com.png" height="35"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" height="35"/>
-  <img src="https://user-images.githubusercontent.com/315810/92161415-9e357100-edfe-11ea-917d-f9e33fd60741.png" height="35"/>
-  <img src="https://github.com/scikit-learn/scikit-learn/raw/main/doc/logos/scikit-learn-logo-without-subtitle.svg" height="35"/>
-  <img src="https://www.gstatic.com/devrel-devsite/prod/v80bae38ba58d74b96b4842131d88ee335fbea404678aa063008110db834e2268/tensorflow/images/lockup.svg" height="35"/> -->
+<a href=""> <img src="https://cdn.iconscout.com/icon/free/png-256/free-python-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-5-pack-logos-icons-2945099.png?f=webp&w=256" width="3.25%"/></a>
+<a href=""> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bash_Logo_black_and_white_icon_only.svg/672px-Bash_Logo_black_and_white_icon_only.svg.png" width="3%"/></a>
+<a href=""> <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="3.5%"/></a>
+<a href=""> <img src="https://seeklogo.com/images/J/jupyter-logo-A91705F539-seeklogo.com.png" width="3%"/></a>
+<a href=""> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1985px-Postgresql_elephant.svg.png" width="3.25%"/></a>
+<a href=""> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png" width="3.25%"/></a>
+<a href=""> <img src="https://static-00.iconduck.com/assets.00/google-cloud-icon-1024x823-wiwlyizc.png" width="4%"/></a>
+<a href=""> <img src="https://astro-provider-logos.s3.us-east-2.amazonaws.com/apache-airflow.png" width="3.5%"/></a>
+<a href=""> <img src="https://i0.wp.com/www.docker.com/wp-content/uploads/2023/05/symbol_blue-docker-logo.png?ssl=1" width="4.5%"/></a>
+<a href=""> <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg" width="3.5%"/></a>
+<a href=""> <img src="https://metakube.com/content/images/2023/02/argo-icon-color.png" width="3.5%"/></a>
+<a href=""> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/512px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png" width="3.5%"/></a>
+<a href=""> <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" width="3.5%"/></a>
+<a href=""> <img src="https://www.northware.mx/wp-content/uploads/2022/09/northware-microsoft-power-automate-logo.png" width="4%"/></a>
+<a href=""> <img src="https://i.pinimg.com/originals/bf/1a/ff/bf1aff0fe3eec1370b47154a7811c607.png" width="3.75%"/></a>
 
-  <img src="https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png" height="35"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/pandas/pandas-original.svg" height="35"/>
-  <img src="https://seeklogo.com/images/N/numpy-logo-479C24EC79-seeklogo.com.png" height="35"/>
-  <img src="https://matplotlib.org/stable/_static/logo_light.svg" height="35"/>
-  <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" height="35"/>
-  <img src="https://github.com/scikit-learn/scikit-learn/raw/main/doc/logos/scikit-learn-logo-without-subtitle.svg" height="35"/>
-  <img src="https://www.gstatic.com/devrel-devsite/prod/v80bae38ba58d74b96b4842131d88ee335fbea404678aa063008110db834e2268/tensorflow/images/lockup.svg" height="35"/>
-  <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg" height="35"/> -->
-</p>
-
-### Database Management Systems:
-<p>
-  <img src="https://www.vectorlogo.zone/logos/mysql/mysql-official.svg" height="35"/>
-  <img src="https://icon-library.com/images/postgresql-icon/postgresql-icon-13.jpg" height="35"/>
-  <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" height="35"/> -->
-  <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Neo4j-logo_color.png" height="35"/> -->
-  <!-- <img src="https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress" height="35"/> -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" height="35"/>
-</p>
-
-### Data Visualization Tools:
-<p>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Google_Docs_logo_%282014-2020%29.svg" height="35"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Google_Sheets_logo_%282014-2020%29.svg" height="35"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Google_Slides_logo_%282014-2020%29.svg" height="35"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" height="35"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" height="35"/>
-  <img src="https://valiotti.com/wp-content/uploads/2022/10/lookerstudiogoogle.svg" height="35"/>
-  <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Looker.svg" height="35"/> -->
-</p>
-    
-### Big Data Processing Frameworks:
-<p>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Hadoop_logo.svg" height="35"/>
-  <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Apache_Hive_logo.svg" height="35"/> -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" height="35"/>
-</p>
-
-### Containerization & Orchestration Tools:
-<p>
-  <img src="https://c978d03020deef37dc7e.b-cdn.net/wp-content/uploads/2020/10/horizontal-logo-monochromatic-white.png" height="35"/>
-  <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.svg" height="35"/>
-  <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/name_blue.svg" height="35"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png" height="35"/>
-  <img src="https://mlflow.org/images/MLflow-logo-final-white-TM.png" height="35"/>
-  <!-- <img src="https://assets-global.website-files.com/61e8494b1e8e024a7113bd50/6324805f9ce8603d6c1d7c6d_prefect-logo-gradient-white.png" height="35"/> -->
-  <img src="https://avatars.githubusercontent.com/u/44036562?s=280&v=4" height="35"/>
-  <img src="https://www.devkuma.com/docs/argo-cd/argo-horizontal-color.png" height="35"/>
-</p>
-
-### Cloud Platforms:
-<p>
-  <!-- <img src="https://seeklogo.com/images/G/google-cloud-logo-ADE788217F-seeklogo.com.png" height="35"/> -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg" height="35"/>
-  <!-- <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/azure/azure-original.svg" height="35"/> -->
-  <img src="https://www.datocms-assets.com/2885/1651788042-csp-microsoft-azure-partner-logotype.svg" height="35"/>
-  <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" height="35"/> -->
-  <img src="https://freelogopng.com/images/all_img/1681039182chatgpt-logo-with-name.png" height="35"/>
-</p>
-
-### IDE, CLI & Version Control Tools:
-<p>
-  <img src="https://jupyter.org/assets/homepage/main-logo.svg" height="35"/> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" height="35"/> 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/UbuntuCoF.svg" height="35"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" height="35"/>
-  <img src="https://www.clipartmax.com/png/full/349-3490136_anaconda-icon-anaconda-python-icon.png" height="35"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Vimlogo.svg" height="35"/> 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Windows_Terminal_Logo.png" height="35"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg" height="35"/>
-  <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Gnu-bash-logo.svg" height="35"/> -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/PowerShell_Core_6.0_icon.png" height="35"/>
-  <!-- <img src="https://git-scm.com/images/logo@2x.png" height="35"/>  -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg" height="35"/> 
-  <img src="https://static-00.iconduck.com/assets.00/logo-github-icon-256x256-6fb8e1xp.png" height="35"/> 
-  <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/GitHub_logo_2013.svg" height="35"/>  -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" height="35"/> 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg" height="35"/> 
-</p>
-    
-<h2 align="left">Licenses & Certifications</h2>
+<h2 align="left">Certifications</h2>
 
 ### Microsoft:
 
@@ -161,25 +87,25 @@ Master's student in Big Data Engineering with a track record in data exploration
 
 ### HackerRank:
 
-<a href="https://www.hackerrank.com/certificates/441eeb7976d6"> <img src="Certificates/HackerRank/hackerrank-problem_solving_basic.png" width="33%"/></a>
-<a href="https://www.hackerrank.com/certificates/81fb347a6c05"> <img src="Certificates/HackerRank/hackerrank-python_basic.png" width="33%"/></a>
-<a href="https://www.hackerrank.com/certificates/39ff3dd8f5f2"> <img src="Certificates/HackerRank/hackerrank-sql_intermediate.png" width="33%"/></a>
+<a href="https://www.hackerrank.com/certificates/441eeb7976d6"> <img src="Certificates/HackerRank/hackerrank-problem_solving_basic.png" width="32.5%"/></a>
+<a href="https://www.hackerrank.com/certificates/81fb347a6c05"> <img src="Certificates/HackerRank/hackerrank-python_basic.png" width="32.5%"/></a>
+<a href="https://www.hackerrank.com/certificates/39ff3dd8f5f2"> <img src="Certificates/HackerRank/hackerrank-sql_intermediate.png" width="32.5%"/></a>
 
 ### Jumpbox:
 
-<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/Jumpbox/Jumpbox-cloud_native_practitioner_fundamental.png"> <img src="Certificates/Jumpbox/Jumpbox-cloud_native_practitioner_fundamental.png" width="33%"/></a>
-<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/Jumpbox/Jumpbox-cloud_native_associate.png"> <img src="Certificates/Jumpbox/Jumpbox-cloud_native_associate.png" width="33%"/></a>
-<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/Jumpbox/Jumpbox-the_cloud_camp_2023.png"> <img src="Certificates/Jumpbox/Jumpbox-the_cloud_camp_2023.png" width="33%"/></a>
+<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/Jumpbox/Jumpbox-cloud_native_practitioner_fundamental.png"> <img src="Certificates/Jumpbox/Jumpbox-cloud_native_practitioner_fundamental.png" width="32.5%"/></a>
+<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/Jumpbox/Jumpbox-cloud_native_associate.png"> <img src="Certificates/Jumpbox/Jumpbox-cloud_native_associate.png" width="32.5%"/></a>
+<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/Jumpbox/Jumpbox-the_cloud_camp_2023.png"> <img src="Certificates/Jumpbox/Jumpbox-the_cloud_camp_2023.png" width="32.5%"/></a>
 
 ### Coursera:
 
-<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JGTX429GU7JF"> <img src="Certificates/Coursera/coursera-google_business_intelligence.png" width="33%"/></a>
-<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JEEKHUK66YYR"> <img src="Certificates/Coursera/coursera-google_advanced_data_analytics.png" width="33%"/></a>
+<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JGTX429GU7JF"> <img src="Certificates/Coursera/coursera-google_business_intelligence.png" width="32.5%"/></a>
+<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JEEKHUK66YYR"> <img src="Certificates/Coursera/coursera-google_advanced_data_analytics.png" width="32.5%"/></a>
 
 ### DataCamp:
 
-<a href="https://www.datacamp.com/statement-of-accomplishment/track/10b0abecea6acaa5788f6d55e2b368ffce5a1184"> <img src="Certificates/DataCamp/datacamp-data_engineer2.png" width="33%"/></a>
+<a href="https://www.datacamp.com/statement-of-accomplishment/track/10b0abecea6acaa5788f6d55e2b368ffce5a1184"> <img src="Certificates/DataCamp/datacamp-data_engineer2.png" width="32.5%"/></a>
 
 ### JLPT:
 
-<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/JLPT/JLPT-N3.jpg"> <img src="Certificates/JLPT/JLPT-N3.jpg" width="33%"/></a>
+<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/JLPT/JLPT-N3.jpg"> <img src="Certificates/JLPT/JLPT-N3.jpg" width="32.5%"/></a>
