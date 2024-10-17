@@ -34,7 +34,7 @@ Data Engineer with a proven ability to design, build, and maintain scalable data
     -  [Deploy ML Model using *Flask* :: [ *Code → GitHub Actions → Docker Hub → ArgoCD → K8s* ]](https://github.com/NutBodyslam053/BD528-software_engineering.git) ✨
 
 ### 👷🏻‍♂️ **My Data Engineering Projects**
-- **Pipeline Orchestration**:
+- **Data Pipeline Orchestration**:
   - [ELT workflow with *Airflow* :: [ *APIs → Google Cloud Storage → BigQuery* ]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Airflow) ✨
   - [ELT workflow with *Prefect* :: [ *Web → Local → Google Cloud Storage → BigQuery* ]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/02_gcp/etl-web_to_gcs_to_bg.py)
 - **Spark**:
