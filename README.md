@@ -14,17 +14,14 @@ Data Engineer with a proven ability to design, build, and maintain scalable data
     - [SQLite :: *Chinook*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/SQL/sqlite-chinook.ipynb)
     - [MySQL :: *Sakila*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/SQL/mysql-sakila.ipynb)
     - [MongoDB :: *IMDb*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/MongoDB/mongodb.ipynb)
--  **Programing Language**:
-    - [Python :: Sales Data Analytics for Motorcycle Report](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Python/reporting_on_sale_data.ipynb)
-    - [Python :: Google Trends Analytics for Smartphone Report :: [ *Google Trends → Google Sheets → Looker* ]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/GoogleTrands/GoogleTrends-smartphone.ipynb)
--  **Automation**:
+-  **Python Automation**:
     - [Python Automation Tasks](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/AutomationTasks/automation_tasks.ipynb)
-    - [Web Scraping :: Scraping Job Postings with *BeautifulSoup*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/WebScraping/web_scraping-beautiful_soup.ipynb)
-    - [Web Scraping :: Scraping Football Betting Statistics with *Selenium*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/WebScraping/web_scraping-selenium.ipynb)
-    - [Web Scraping :: Scraping the 2022 FIFA World Cup Data with *Pandas*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/WebScraping/web_scraping-pandas.ipynb)
+-  **Exploratory Data Analysis**:
+    - [Python :: Sales Data Analytics for Motorcycle Report](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Python/reporting_on_sale_data.ipynb)
+    - [Web Scraping :: Scraping Job Postings with *BeautifulSoup*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/WebScraping/web_scraping.ipynb)
 - **Visualization**:
+    - [Python :: Google Trends Analytics for Smartphone Report :: [ *Google Trends → Google Sheets → Looker* ]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Automation/GoogleTrands/GoogleTrends-smartphone.ipynb)
     - [Looker :: Generating a report by connecting data from *GoogleSheets*](https://lookerstudio.google.com/u/0/reporting/743d4b2c-484f-4a25-8559-ce61c9318bf4/page/dlwOD)
-    - [Looker :: Generating a report by connecting data from *BigQuery*](https://lookerstudio.google.com/reporting/5b79a5f1-8678-4b13-9cd2-f43c39f2ef75)
 
 ### 👨🏻‍🔬 **My Data Science Projects**
 -  **Machine Learning**:
@@ -37,17 +34,13 @@ Data Engineer with a proven ability to design, build, and maintain scalable data
     -  [Deploy ML Model using *Flask* :: [ *Code → GitHub Actions → Docker Hub → ArgoCD → K8s* ]](https://github.com/NutBodyslam053/BD528-software_engineering.git) ✨
 
 ### 👷🏻‍♂️ **My Data Engineering Projects**
-- **Docker**:
-  - [Ingesting data into a PostgreSQL database running on Docker :: [ *Web → PostgreSQL* ]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/2_docker_sql/ingest-data.py)
-- **Prefect**:
-  - [Ingesting data into a PostgreSQL database running on Local :: [ *Web → PostgreSQL* ]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/01_start/ingest-data-prefect.py)
-  - [ETL workflow :: [ *Web → Local → Google Cloud Storage → BigQuery* ]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/02_gcp/etl-web_to_gcs_to_bg.py)
-- **Airflow**:
-  - [ETL workflow :: [ *Database, Web → Google Cloud Storage → BigQuery* ]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Airflow/start_ws5_gcs_to_bq.py)
+- **Pipeline Orchestration**:
+  - [ELT workflow with *Airflow* :: [ *APIs → Google Cloud Storage → BigQuery* ]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Airflow) ✨
+  - [ELT workflow with *Prefect* :: [ *Web → Local → Google Cloud Storage → BigQuery* ]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/02_gcp/etl-web_to_gcs_to_bg.py)
 - **Spark**:
   - [Manipulating data with *PySpark*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Spark/PySpark.ipynb)
 - **IoT**:
-  - [ESP32 + Blynk IoT Platform](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/IoT/BD526-Project_ESP32%2BBlynk.pdf)
+  - [ESP32 + *Blynk* IoT Platform](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/IoT/BD526-Project_ESP32%2BBlynk.pdf)
 
 ### 🧑🏻‍🚀 **My Cloud Engineering Projects**
 - **Cloud Native**:
