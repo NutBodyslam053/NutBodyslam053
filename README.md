@@ -36,7 +36,7 @@ Data Engineer with a proven ability to design, build, and maintain scalable data
 ### 👷🏻‍♂️ **My Data Engineering Projects**
 - **Data Pipeline Orchestration**:
   - [ELT workflow with *Airflow* :: [ *APIs → Google Cloud Storage → BigQuery* ]](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Airflow) ✨
-  - [ELT workflow with *Prefect* :: [ *Web → Local → Google Cloud Storage → BigQuery* ]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/02_gcp/etl-web_to_gcs_to_bg.py)
+  <!-- - [ELT workflow with *Prefect* :: [ *Web → Local → Google Cloud Storage → BigQuery* ]](https://github.com/NutBodyslam053/DEzoomcamp/blob/main/3_prefect_gcp/02_gcp/etl-web_to_gcs_to_bg.py) -->
 - **Spark**:
   - [Manipulating data with *PySpark*](https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Spark/PySpark.ipynb)
 - **IoT**:
