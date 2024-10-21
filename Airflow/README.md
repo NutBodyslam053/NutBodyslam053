@@ -7,8 +7,8 @@ Project นี้ เป็นการสร้าง Data Pipeline สำห�
 <div>
   <table style="margin: auto; width: 100%;">
     <tr>
-      <th style="width: 15%; text-align: center;">Logo</th>
-      <th style="width: 50%; text-align: center;">Source</th>
+      <th style="text-align: center;">Logo</th>
+      <th style="text-align: center;">Source</th>
     </tr>
     <tr>
       <td style="text-align: center;">
