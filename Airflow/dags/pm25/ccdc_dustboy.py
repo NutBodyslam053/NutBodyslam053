@@ -185,10 +185,10 @@ def ccdc_dustboy() -> None:
                 task_id=f"waiting_for_{parent_dag}",
                 external_dag_id=parent_dag,
                 external_task_id="data_warehouse.upsert_table_temp_to_wh__station_info",
-                allowed_states=["success", "failed"],
+                allowed_states=["success", "failed", "skipped", "upstream_failed"],
                 mode="poke",
                 timeout=120,  # 2 minutes
-                poke_interval=60,  # 1 minute
+                poke_interval=30,
                 soft_fail=False,
                 check_existence=True,
             )

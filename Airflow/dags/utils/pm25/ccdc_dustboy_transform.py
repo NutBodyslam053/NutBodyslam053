@@ -1,31 +1,69 @@
 import pandas as pd
+from io import BytesIO
 from pendulum import DateTime
-
 from airflow.exceptions import AirflowFailException
+from utils.utils import download_from_gcs_as_bytes, download_from_gcs_as_dataframe, convert_pm25_value_to_pm25_color_id
 
 
 class TransformFunctions:
+
     @staticmethod
     def _initialize_dataframe(dataframe: pd.DataFrame) -> pd.DataFrame:
-        # Rename columns to snake_case, remove unnecessary prefixes, and clean up formatting
+
+        # Clean up column names (snake_case, remove prefixes, clean formatting)
         dataframe.columns = (
             dataframe.columns.str.strip()
-            .str.replace("[- ]|(?<=[a-z])(?=[A-Z])", "_", regex=True)
-            .str.replace("(?i)[.]|(^properties_)", "", regex=True)
+            .str.replace(pat="[- ]|(?<=[a-z])(?=[A-Z])", repl="_", regex=True)
+            .str.replace(pat="(?i)[.]|(^properties_)", repl="", regex=True)
             .str.lower()
         )
 
-        dataframe = dataframe.rename(
-            columns={
-                "dustboy_id": "station_id",
-                "dustboy_name": "station_name_th",
-                "log_datetime": "datetime",
-                "dustboy_lon": "longitude",
-                "dustboy_lat": "latitude",
-                "pm25_th_aqi": "pm25_aqi",
-                "pm25": "pm25_value",
-            }
-        )
+        # Drop unused features
+        dataframe.drop(columns=["type", "geometry_type", "geometry_coordinates"], inplace=True)
+
+        # Exclude rows where `longitude` or `latitude` is an empty string
+        dataframe = dataframe[~((dataframe["dustboy_lon"] == "") | (dataframe["dustboy_lat"] == ""))]
+
+        # Filter rows where `longitude` and `latitude` within their valid ranges
+        dataframe = dataframe[
+            dataframe["dustboy_lon"].astype(float).between(-180, 180)
+            & dataframe["dustboy_lat"].astype(float).between(-90, 90)
+        ]
+
+        # Remove commas (,) present in numeric columns
+        columns_to_replace = [
+            "id",
+            "dustboy_lat",
+            "dustboy_lon",
+            "pm10",
+            "pm25",
+            "wind_speed",
+            "wind_direction",
+            "atmospheric",
+            "pm10_th_aqi",
+            "pm10_us_aqi",
+            "pm25_th_aqi",
+            "pm25_us_aqi",
+            "temp",
+            "humid",
+            "us_aqi",
+            "th_aqi",
+            "daily_pm10",
+            "daily_pm10_th_aqi",
+            "daily_pm10_us_aqi",
+            "daily_pm25",
+            "daily_pm25_th_aqi",
+            "daily_pm25_us_aqi",
+            "daily_temp",
+            "daily_humid",
+            "daily_wind_speed",
+            "daily_wind_direction",
+            "daily_atmospheric",
+            "province_id",
+            "province_code",
+        ]
+
+        dataframe.loc[:, columns_to_replace].replace(to_replace=",", value="", inplace=True)
 
         return dataframe
 
@@ -36,14 +74,6 @@ class TransformFunctions:
         select_columns: list[str] | None = None,
         dtype_conversion: dict[str] | None = None,
     ) -> pd.DataFrame:
-        # Exclude rows where `longitude` or `latitude` is an empty string
-        dataframe = dataframe[~((dataframe["longitude"] == "") | (dataframe["latitude"] == ""))]
-
-        # Filter rows where `longitude` and `latitude` within their valid ranges
-        dataframe = dataframe[
-            dataframe["longitude"].astype(float).between(-180, 180)
-            & dataframe["latitude"].astype(float).between(-90, 90)
-        ]
 
         # Add additional columns if provided
         if additional_columns:
@@ -54,6 +84,7 @@ class TransformFunctions:
         if select_columns:
             dataframe = dataframe[select_columns]
 
+        # Convert data types if provided
         if dtype_conversion:
             dataframe = dataframe.astype(dtype_conversion)
 
@@ -66,11 +97,9 @@ class TransformFunctions:
         folder_path: str,
         file_name: str | None = None,
     ) -> pd.DataFrame:
-        from io import BytesIO
-        from utils.utils import download_from_gcs_as_bytes
 
         try:
-            # Download raw data from GCS as `bytes`
+            # Download raw data from GCS as Bytes
             file_content = download_from_gcs_as_bytes(
                 bucket_name=bucket_name,
                 folder_path=folder_path,
@@ -79,9 +108,6 @@ class TransformFunctions:
 
             dataframe = pd.read_json(BytesIO(file_content))
             dataframe = pd.json_normalize(data=dataframe["features"], sep="_")
-
-            # Drop unused features
-            dataframe.drop(columns=["type", "geometry_type", "geometry_coordinates"], inplace=True)
 
             dataframe = TransformFunctions._initialize_dataframe(dataframe=dataframe)
 
@@ -93,20 +119,20 @@ class TransformFunctions:
                 },
                 dtype_conversion={
                     "id": "str",
-                    "station_id": "str",
+                    "dustboy_id": "str",
                     "dustboy_uri": "str",
-                    "station_name_th": "str",
+                    "dustboy_name": "str",
                     "dustboy_name_en": "str",
-                    "longitude": "Float64",
-                    "latitude": "Float64",
+                    "dustboy_lon": "Float64",
+                    "dustboy_lat": "Float64",
                     "pm10": "Float64",
-                    "pm25_value": "Float64",
+                    "pm25": "Float64",
                     "wind_speed": "Float64",
                     "wind_direction": "Float64",
                     "atmospheric": "Float64",
                     "pm10_th_aqi": "Float64",
                     "pm10_us_aqi": "Float64",
-                    "pm25_aqi": "Int64",
+                    "pm25_th_aqi": "Int64",
                     "pm25_us_aqi": "Int64",
                     "temp": "Float64",
                     "humid": "Float64",
@@ -149,7 +175,7 @@ class TransformFunctions:
                     "daily_atmospheric": "Float64",
                     "province_id": "str",
                     "province_code": "str",
-                    "datetime": "datetime64[ms]",
+                    "log_datetime": "datetime64[ms]",
                     "ingest_date": "str",
                     "ingest_datetime": "datetime64[ms]",
                 },
@@ -158,7 +184,7 @@ class TransformFunctions:
             return dataframe
 
         except Exception as e:
-            raise AirflowFailException(e)
+            raise AirflowFailException(f"Error in stage (discovery): {e}")
 
     @staticmethod
     def transform_processed(
@@ -167,10 +193,9 @@ class TransformFunctions:
         folder_path: str,
         file_name: str | None = None,
     ) -> pd.DataFrame:
-        from utils.utils import convert_pm25_value_to_pm25_color_id, download_from_gcs_as_dataframe
 
         try:
-            # Download raw data from GCS as `DataFrame`
+            # Download raw data from GCS as DataFrame
             dataframe = download_from_gcs_as_dataframe(
                 bucket_name=bucket_name,
                 folder_path=folder_path,
@@ -180,13 +205,23 @@ class TransformFunctions:
                 ],
             )
 
-            dataframe = TransformFunctions._initialize_dataframe(dataframe=dataframe)
+            dataframe.rename(
+                columns={
+                    "dustboy_id": "station_id",
+                    "dustboy_name": "station_name_th",
+                    "log_datetime": "datetime",
+                    "dustboy_lon": "longitude",
+                    "dustboy_lat": "latitude",
+                    "pm25_th_aqi": "pm25_aqi",
+                    "pm25": "pm25_value",
+                },
+                inplace=True,
+            )
 
             dataframe = TransformFunctions._clean_and_transform_dataframe(
                 dataframe=dataframe,
                 additional_columns={
                     "data_owner": "CCDC",
-                    "datetime": pd.to_datetime(dataframe["datetime"], errors="coerce"),
                     "pm25_color_id": dataframe["pm25_value"].apply(convert_pm25_value_to_pm25_color_id),
                     "ingest_date": logical_date.to_date_string(),
                     "ingest_datetime": logical_date.to_datetime_string(),
@@ -222,4 +257,4 @@ class TransformFunctions:
             return dataframe
 
         except Exception as e:
-            raise AirflowFailException(e)
+            raise AirflowFailException(f"Error in stage (processed): {e}")

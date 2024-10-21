@@ -1,27 +1,22 @@
 import pandas as pd
+from io import BytesIO
 from pendulum import DateTime
-
+from airflow.models import Variable
 from airflow.exceptions import AirflowFailException
+from utils.utils import download_from_gcs_as_bytes, download_from_gcs_as_dataframe, convert_pm25_value_to_pm25_color_id
 
 
 class TransformFunctions:
+
     @staticmethod
     def _initialize_dataframe(dataframe: pd.DataFrame) -> pd.DataFrame:
-        # Rename columns to snake_case, remove unnecessary prefixes, and clean up formatting
+
+        # Clean up column names (snake_case, remove prefixes, clean formatting)
         dataframe.columns = (
             dataframe.columns.str.strip()
-            .str.replace("[- ]|(?<=[a-z])(?=[A-Z])", "_", regex=True)
-            .str.replace("(?i)[.]", "", regex=True)
+            .str.replace(pat="[- ]|(?<=[a-z])(?=[A-Z])", repl="_", regex=True)
+            .str.replace(pat="(?i)[.]", repl="", regex=True)
             .str.lower()
-        )
-
-        dataframe = dataframe.rename(
-            columns={
-                "pm2_5": "pm25_value",
-                "aqi": "pm25_aqi",
-                "dev_id": "station_id",
-                "name": "station_name_th",
-            }
         )
 
         return dataframe
@@ -33,6 +28,7 @@ class TransformFunctions:
         select_columns: list[str] | None = None,
         dtype_conversion: dict[str] | None = None,
     ) -> pd.DataFrame:
+
         # Add additional columns if provided
         if additional_columns:
             for col, value in additional_columns.items():
@@ -42,6 +38,7 @@ class TransformFunctions:
         if select_columns:
             dataframe = dataframe[select_columns]
 
+        # Convert data types if provided
         if dtype_conversion:
             dataframe = dataframe.astype(dtype_conversion)
 
@@ -54,12 +51,9 @@ class TransformFunctions:
         folder_path: str,
         file_name: str | None = None,
     ) -> pd.DataFrame:
-        from io import BytesIO
-        from airflow.models import Variable
-        from utils.utils import download_from_gcs_as_bytes
 
         try:
-            # Download raw data from GCS as `bytes`
+            # Download raw data from GCS as Bytes
             file_content = download_from_gcs_as_bytes(
                 bucket_name=bucket_name,
                 folder_path=folder_path,
@@ -92,9 +86,9 @@ class TransformFunctions:
                 dtype_conversion={
                     "timestamp": "datetime64[ms, UTC+07:00]",
                     "pm1": "Float64",
-                    "pm25_value": "Float64",
+                    "pm2_5": "Float64",
                     "pm10": "Float64",
-                    "pm25_aqi": "Int64",
+                    "aqi": "Int64",
                     "pollution_level": "str",
                     "is_forecast": "bool",
                     "temperature": "Float64",
@@ -105,7 +99,7 @@ class TransformFunctions:
                     "device": "str",
                     "id": "str",
                     "type": "str",
-                    "station_name_th": "str",
+                    "name": "str",
                     "subdistrict": "str",
                     "district": "str",
                     "province_code": "str",
@@ -114,7 +108,7 @@ class TransformFunctions:
                     "region": "str",
                     "longitude": "Float64",
                     "latitude": "Float64",
-                    "station_id": "str",
+                    "dev_id": "str",
                     "ingest_date": "str",
                     "ingest_datetime": "datetime64[ms]",
                 },
@@ -123,7 +117,7 @@ class TransformFunctions:
             return dataframe
 
         except Exception as e:
-            raise AirflowFailException(e)
+            raise AirflowFailException(f"Error in stage (discovery): {e}")
 
     @staticmethod
     def transform_processed(
@@ -132,10 +126,9 @@ class TransformFunctions:
         folder_path: str,
         file_name: str | None = None,
     ) -> pd.DataFrame:
-        from utils.utils import convert_pm25_value_to_pm25_color_id, download_from_gcs_as_dataframe
 
         try:
-            # Download raw data from GCS as `DataFrame`
+            # Download raw data from GCS as DataFrame
             dataframe = download_from_gcs_as_dataframe(
                 bucket_name=bucket_name,
                 folder_path=folder_path,
@@ -145,7 +138,15 @@ class TransformFunctions:
                 ],
             )
 
-            dataframe = TransformFunctions._initialize_dataframe(dataframe=dataframe)
+            dataframe.rename(
+                columns={
+                    "dev_id": "station_id",
+                    "name": "station_name_th",
+                    "aqi": "pm25_aqi",
+                    "pm2_5": "pm25_value",
+                },
+                inplace=True,
+            )
 
             dataframe = TransformFunctions._clean_and_transform_dataframe(
                 dataframe=dataframe,
@@ -187,4 +188,4 @@ class TransformFunctions:
             return dataframe
 
         except Exception as e:
-            raise AirflowFailException(e)
+            raise AirflowFailException(f"Error in stage (processed): {e}")

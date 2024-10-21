@@ -1,28 +1,26 @@
 import numpy as np
 import pandas as pd
+from io import BytesIO
 from pendulum import DateTime
-
 from airflow.exceptions import AirflowFailException
+from utils.utils import download_from_gcs_as_bytes, download_from_gcs_as_dataframe, convert_pm25_value_to_pm25_color_id
 
 
 class TransformFunctions:
+
     @staticmethod
     def _initialize_dataframe(dataframe: pd.DataFrame) -> pd.DataFrame:
-        # Rename columns to snake_case, remove unnecessary prefixes, and clean up formatting
+
+        # Clean up column names (snake_case, remove prefixes, clean formatting)
         dataframe.columns = (
             dataframe.columns.str.strip()
-            .str.replace("[- ]|(?<=[a-z])(?=[A-Z])", "_", regex=True)
-            .str.replace("(?i)[.]|(^aqilast_)", "", regex=True)
+            .str.replace(pat="[- ]|(?<=[a-z])(?=[A-Z])", repl="_", regex=True)
+            .str.replace(pat="(?i)[.]|(^aqilast_)", repl="", regex=True)
             .str.lower()
         )
 
-        dataframe = dataframe.rename(
-            columns={
-                "long": "longitude",
-                "lat": "latitude",
-                "name_th": "station_name_th",
-            }
-        )
+        # Replace -1 and -999 with NaN
+        dataframe.replace(to_replace=["-1", "-999"], value=np.nan, inplace=True)
 
         return dataframe
 
@@ -33,8 +31,6 @@ class TransformFunctions:
         select_columns: list[str] | None = None,
         dtype_conversion: dict[str] | None = None,
     ) -> pd.DataFrame:
-        # Replace -1 and -999 with NaN
-        dataframe.replace(to_replace=["-1", "-999"], value=np.nan, inplace=True)
 
         # Add additional columns if provided
         if additional_columns:
@@ -45,6 +41,7 @@ class TransformFunctions:
         if select_columns:
             dataframe = dataframe[select_columns]
 
+        # Convert data types if provided
         if dtype_conversion:
             dataframe = dataframe.astype(dtype_conversion)
 
@@ -57,11 +54,9 @@ class TransformFunctions:
         folder_path: str,
         file_name: str | None = None,
     ) -> pd.DataFrame:
-        from io import BytesIO
-        from utils.utils import download_from_gcs_as_bytes
 
         try:
-            # Download raw data from GCS as `bytes`
+            # Download raw data from GCS as Bytes
             file_content = download_from_gcs_as_bytes(
                 bucket_name=bucket_name,
                 folder_path=folder_path,
@@ -81,13 +76,13 @@ class TransformFunctions:
                 },
                 dtype_conversion={
                     "station_id": "str",
-                    "station_name_th": "str",
+                    "name_th": "str",
                     "name_en": "str",
                     "area_th": "str",
                     "area_en": "str",
                     "station_type": "str",
-                    "longitude": "Float64",
-                    "latitude": "Float64",
+                    "long": "Float64",
+                    "lat": "Float64",
                     "forecast": "str",
                     "date": "str",
                     "time": "str",
@@ -120,7 +115,7 @@ class TransformFunctions:
             return dataframe
 
         except Exception as e:
-            raise AirflowFailException(e)
+            raise AirflowFailException(f"Error in stage (discovery): {e}")
 
     @staticmethod
     def transform_processed(
@@ -129,10 +124,9 @@ class TransformFunctions:
         folder_path: str,
         file_name: str | None = None,
     ) -> pd.DataFrame:
-        from utils.utils import convert_pm25_value_to_pm25_color_id, download_from_gcs_as_dataframe
 
         try:
-            # Download raw data from GCS as `DataFrame`
+            # Download raw data from GCS as DataFrame
             dataframe = download_from_gcs_as_dataframe(
                 bucket_name=bucket_name,
                 folder_path=folder_path,
@@ -142,7 +136,14 @@ class TransformFunctions:
                 ],
             )
 
-            dataframe = TransformFunctions._initialize_dataframe(dataframe=dataframe)
+            dataframe.rename(
+                columns={
+                    "long": "longitude",
+                    "lat": "latitude",
+                    "name_th": "station_name_th",
+                },
+                inplace=True,
+            )
 
             dataframe = TransformFunctions._clean_and_transform_dataframe(
                 dataframe=dataframe,
@@ -184,4 +185,4 @@ class TransformFunctions:
             return dataframe
 
         except Exception as e:
-            raise AirflowFailException(e)
+            raise AirflowFailException(f"Error in stage (processed): {e}")

@@ -15,7 +15,7 @@ from airflow.providers.google.cloud.operators.bigquery import BigQueryInsertJobO
 ENVIRONMENT = os.getenv("ENVIRONMENT", "dev")
 PROJECT_ID = "envilink"
 DATA_OWNER = "dpm"
-DATA_SOURCE = "airquality"
+DATA_SOURCE = "dpmalert"
 # ==============================================<< Airflow DAG >>============================================== #
 LOCAL_TIMEZONE = "Asia/Bangkok"
 DEFAULT_ARGS = {
@@ -50,7 +50,7 @@ BQ_TABLE_PATHS = generate_bq_table_paths(
     template_searchpath=["/opt/airflow/dags/utils/"],
     default_args=DEFAULT_ARGS,
 )
-def dpm_airquality() -> None:
+def dpm_dpmalert() -> None:
 
     # Initialize the essential constants
     @task_group(group_id="init_constants")
@@ -119,7 +119,7 @@ def dpm_airquality() -> None:
     # Transform raw data and upload to GCS ["discovery", "processed"]
     @task_group(group_id="staging_area")
     def staging_area(source_buckets: list[str], target_buckets: list[str]) -> dict[str, None]:
-        from utils.pm25.ccdc_dustboy_transform import TransformFunctions
+        from utils.pm25.dpm_dpmalert_transform import TransformFunctions
         from utils.utils import upload_to_gcs_from_parquet
 
         tasks = {}
@@ -199,10 +199,10 @@ def dpm_airquality() -> None:
                 task_id=f"waiting_for_{parent_dag}",
                 external_dag_id=parent_dag,
                 external_task_id="data_warehouse.upsert_table_temp_to_wh__station_info",
-                allowed_states=["success", "failed"],
+                allowed_states=["success", "failed", "skipped", "upstream_failed"],
                 mode="poke",
                 timeout=120,  # 2 minutes
-                poke_interval=60,  # 1 minute
+                poke_interval=30,
                 soft_fail=False,
                 check_existence=True,
             )
@@ -241,4 +241,4 @@ def dpm_airquality() -> None:
     init >> raw >> staging["discovery"] >> staging["processed"] >> warehouse
 
 
-dpm_airquality()
+dpm_dpmalert()

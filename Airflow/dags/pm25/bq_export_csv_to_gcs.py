@@ -5,7 +5,6 @@ from utils.utils import generate_gcs_base_uris, generate_bq_table_paths
 
 from airflow.utils.helpers import chain
 from airflow.decorators import dag, task_group
-from airflow.utils.trigger_rule import TriggerRule
 from airflow.sensors.external_task import ExternalTaskSensor
 from airflow.providers.google.cloud.operators.bigquery import BigQueryInsertJobOperator
 from airflow.providers.google.cloud.transfers.bigquery_to_gcs import BigQueryToGCSOperator
@@ -62,7 +61,7 @@ def bq_export_csv_to_gcs() -> None:
             for parent_dag in parent_dags
         ]
 
-    sensor = external_task_sensor(parent_dags=["pcd_air4thai", "ccdc_dustboy", "nt_rguard"])
+    sensor = external_task_sensor(parent_dags=["pcd_air4thai", "ccdc_dustboy", "dpm_dpmalert", "nt_rguard"])
 
     # Transfer data table from BigQuery ["warehouse"] to ["mart"]
     @task_group(group_id="data_mart")
@@ -87,7 +86,7 @@ def bq_export_csv_to_gcs() -> None:
                     "station_reads_table": BQ_TABLE_PATHS["wh"].get("station_reads"),
                 },
                 location="asia-southeast1",
-                trigger_rule=TriggerRule.NONE_FAILED_MIN_ONE_SUCCESS,
+                trigger_rule="all_done",  # It should be "none_failed_min_one_success"
             )
             for source_table, target_table in zip(source_tables, target_tables)
         ]

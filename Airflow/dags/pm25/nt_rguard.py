@@ -5,7 +5,6 @@ from pendulum import datetime, duration, now
 from utils.notifications_v2 import send_teams_notification
 from utils.utils import generate_gcs_base_uris, generate_bq_table_paths
 
-from airflow.models import Variable
 from airflow.utils.helpers import chain
 from airflow.models.xcom_arg import XComArg
 from airflow.exceptions import AirflowFailException
@@ -85,7 +84,9 @@ def nt_rguard() -> None:
         @task
         def fetch_api_to_gcs_raw(device_info_file_path: str, nt_rguard_api_key: str, ti=None) -> None:
             GCS_BASE_URIS = ti.xcom_pull(task_ids="init_constants.update_gcs_base_uris")
-            NT_DEVICE_ID_DATAFRAME = pd.read_csv(f"gs://envilink_master_data/{device_info_file_path}", usecols=["DevID"])
+            NT_DEVICE_ID_DATAFRAME = pd.read_csv(
+                f"gs://envilink_master_data/{device_info_file_path}", usecols=["DevID"]
+            )
 
             json_data = asyncio.run(
                 fetch_api_async(
@@ -196,7 +197,7 @@ def nt_rguard() -> None:
                 task_id=f"waiting_for_{parent_dag}",
                 external_dag_id=parent_dag,
                 external_task_id="data_warehouse.upsert_table_temp_to_wh__station_info",
-                allowed_states=["success", "failed"],
+                allowed_states=["success", "failed", "skipped", "upstream_failed"],
                 mode="poke",
                 timeout=120,  # 2 minutes
                 poke_interval=60,  # 1 minute
@@ -233,7 +234,7 @@ def nt_rguard() -> None:
 
         chain(temp, sensors, *operators)
 
-    warehouse = data_warehouse(wh_types=["station_info", "station_reads"], parent_dags=["dpm_airquality"])
+    warehouse = data_warehouse(wh_types=["station_info", "station_reads"], parent_dags=["dpm_dpmalert"])
 
     init >> raw >> staging["discovery"] >> staging["processed"] >> warehouse
 
