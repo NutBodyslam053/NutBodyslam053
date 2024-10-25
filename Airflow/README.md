@@ -8,7 +8,7 @@ Project นี้ เป็นการสร้าง Data Pipeline สำห�
 
 ## Data Sources
 
-<p align="center">
+<div align="center">
   <table>
     <tr>
       <th style="text-align: center;">Logo</th>
@@ -47,7 +47,7 @@ Project นี้ เป็นการสร้าง Data Pipeline สำห�
       </td>
     </tr>
   </table>
-</p>
+</div>
 
 ## Data Pipeline Architecture
 
