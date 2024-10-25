@@ -1,43 +1,53 @@
 # Envilink Project
 
-<div style="text-align: center;">
+<p align="center">
   <a href=""> <img src="images/logo/envilink/ENVILINK.LOGO.File-04.png" width="25%"/></a>
-</div>
+</p>
 
 Project นี้ เป็นการสร้าง Data Pipeline สำหรับรวบรวมข้อมูลสิ่งแวดล้อมด้านมลพิษในอากาศ โดยเน้นไปที่ข้อมูลฝุ่น PM 2.5 และข้อมูลอื่นๆที่เกี่ยวข้อง ตามความต้องการของคณะกรรมการร่างกฎหมายมลพิษทางอากาศ ซึ่งชุดข้อมูลถูกจัดเก็บให้อยู่ในลักษณะไฟล์ดิจิทัล *JSON* และ *Parquet* รวมทั้งในรูปแบบโครงสร้างตารางบน Google Cloud Platform เพื่อประโยชน์ทางด้านการศึกษาและการติดตามสภาพแวดล้อมหรือปัญหาจากภัยธรรมชาติ ในเวลาปัจจุบัน
 
 ## Data Sources
 
-<div>
-  <table style="margin: auto; width: 100%;">
+<p align="center">
+  <table>
     <tr>
       <th style="text-align: center;">Logo</th>
       <th style="text-align: center;">Source</th>
     </tr>
     <tr>
-      <td style="text-align: center;">
+      <td align="center">
         <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Emblem_of_the_Pollution_Control_Department.svg" width="100"/></a>
       </td>
-      <td>กรมควบคุมมลพิษ กระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม<br>Pollution Control Department (CCDC), Ministry of Natural Resources and Environment.</td>
+      <td align="center">
+        กรมควบคุมมลพิษ กระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม<br>Pollution Control Department (CCDC), Ministry of Natural Resources and Environment.
+      </td>
     </tr>
     <tr>
-      <td style="text-align: center;">
+      <td align="center">
         <a href=""><img src="images/logo/cmu_ccdc.jpg" width="100"/></a>
       </td>
-      <td>ศูนย์ข้อมูลการเปลี่ยนแปลงสภาพภูมิอากาศ มหาวิทยาลัยเชียงใหม่<br>Climate Change Data Center (CCDC), Chiang Mai University.</td>
+      <td align="center">
+        ศูนย์ข้อมูลการเปลี่ยนแปลงสภาพภูมิอากาศ มหาวิทยาลัยเชียงใหม่<br>Climate Change Data Center (CCDC), Chiang Mai University.
+      </td>
     </tr>
     <tr>
-      <td style="text-align: center;">
+      <td align="center">
         <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Logo_of_the_Department_of_Disaster_Prevention_and_Mitigation.svg/1200px-Logo_of_the_Department_of_Disaster_Prevention_and_Mitigation.svg.png" width="70"/></a>
       </td>
-      <td>กรมป้องกันและบรรเทาสาธารณภัย กระทรวงมหาดไทย<br>Department of Disaster Prevention and Mitigation (DPM), Ministry of Interior.</td>
+      <td align="center">
+        กรมป้องกันและบรรเทาสาธารณภัย กระทรวงมหาดไทย<br>Department of Disaster Prevention and Mitigation (DPM), Ministry of Interior.
+      </td>
     </tr>
     <tr>
-      <td style="text-align: center;"><a href=""><img src="https://lh5.googleusercontent.com/proxy/dFSvkaJ3s6GRq3Idd5YLpPVIKmOewgsaR0OrEg0-yXWnQO-HME3H4Yg8kRtfKPwD0UiIsObjAobdvx3bicht" width="100"/></a></td>
-      <td>ศูนย์ข้อมูลสิ่งแวดล้อมแห่งชาติ บริษัท โทรคมนาคมแห่งชาติ จำกัด (มหาชน)<br>National Environmental Open Data by National Telecom (NT) Public Company Limited.</td>
+      <td align="center">
+        <a href=""><img src="https://lh5.googleusercontent.com/proxy/dFSvkaJ3s6GRq3Idd5YLpPVIKmOewgsaR0OrEg0-yXWnQO-HME3H4Yg8kRtfKPwD0UiIsObjAobdvx3bicht" width="100"/></a>
+      </td>
+      <td align="center">
+        ศูนย์ข้อมูลสิ่งแวดล้อมแห่งชาติ บริษัท โทรคมนาคมแห่งชาติ จำกัด (มหาชน)<br>National Environmental Open Data by National Telecom (NT) Public Company Limited.
+      </td>
     </tr>
   </table>
-</div>
+</p>
 
 ## Data Pipeline Architecture
 
