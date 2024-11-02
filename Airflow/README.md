@@ -51,7 +51,7 @@ Project นี้ เป็นการสร้าง Data Pipeline สำห�
 
 ## Data Pipeline Architecture
 
-<a href=""> <img src="images/overview.png" width="100%"/></a>
+<a href="Airflow/images/overview.png"> <img src="images/overview.png" width="100%"/></a>
 
 ## Airflow DAGs
 
