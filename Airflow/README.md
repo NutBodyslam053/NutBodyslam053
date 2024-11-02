@@ -51,7 +51,7 @@ Project นี้ เป็นการสร้าง Data Pipeline สำห�
 
 ## Data Pipeline Architecture
 
-<a href="Airflow/images/overview.png"> <img src="images/overview.png" width="100%"/></a>
+<a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/0a943dbf869206ff887cd3f524624c6d3bd461e2/Airflow/images/overview.png"> <img src="images/overview.png" width="100%"/></a>
 
 ## Airflow DAGs
 
