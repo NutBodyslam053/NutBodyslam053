@@ -59,7 +59,7 @@ Data Engineer with a proven ability to design, build, and maintain scalable data
 <a href=""> <img src="https://seeklogo.com/images/J/jupyter-logo-A91705F539-seeklogo.com.png" width="5%"/></a>
 <a href=""> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1985px-Postgresql_elephant.svg.png" width="5.5%"/></a>
 <a href=""> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png" width="5.25%"/></a>
-<a href=""> <img src="https://static-00.iconduck.com/assets.00/google-cloud-icon-1024x823-wiwlyizc.png" width="6.5%"/></a>
+<a href=""> <img src="https://www.svgrepo.com/show/353805/google-cloud.svg" width="6.5%"/></a>
 <a href=""> <img src="https://astro-provider-logos.s3.us-east-2.amazonaws.com/apache-airflow.png" width="5.5%"/></a>
 <a href=""> <img src="https://i0.wp.com/www.docker.com/wp-content/uploads/2023/05/symbol_blue-docker-logo.png?ssl=1" width="7.5%"/></a>
 <a href=""> <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg" width="5.75%"/></a>
@@ -90,15 +90,15 @@ Data Engineer with a proven ability to design, build, and maintain scalable data
 <a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/Jumpbox/Jumpbox-cloud_native_associate.png"> <img src="Certificates/Jumpbox/Jumpbox-cloud_native_associate.png" width="33%"/></a>
 <a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/main/Certificates/Jumpbox/Jumpbox-the_cloud_camp_2023.png"> <img src="Certificates/Jumpbox/Jumpbox-the_cloud_camp_2023.png" width="33%"/></a>
 
-### Coursera:
-
-<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JGTX429GU7JF"> <img src="Certificates/Coursera/coursera-google_business_intelligence.png" width="33%"/></a>
-<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JEEKHUK66YYR"> <img src="Certificates/Coursera/coursera-google_advanced_data_analytics.png" width="33%"/></a>
-
 ### Astronomer:
 
 <a href=""> <img src="Certificates/Astronomer/AstronomerCertificationforApacheAirflowFundamentals.png" width="33%"/></a>
 <a href=""> <img src="Certificates/Astronomer/AstronomerCertificationDAGAuthoringforApacheAirflow.png" width="33%"/></a>
+
+### Coursera:
+
+<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JGTX429GU7JF"> <img src="Certificates/Coursera/coursera-google_business_intelligence.png" width="33%"/></a>
+<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/JEEKHUK66YYR"> <img src="Certificates/Coursera/coursera-google_advanced_data_analytics.png" width="33%"/></a>
 
 ### DataCamp:
 

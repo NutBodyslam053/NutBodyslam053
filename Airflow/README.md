@@ -13,6 +13,7 @@ Project นี้ เป็นการสร้าง Data Pipeline สำห�
     <tr>
       <th style="text-align: center;">Logo</th>
       <th style="text-align: center;">Source</th>
+      <th style="text-align: center;">Number of Station</th>
     </tr>
     <tr>
       <td align="center">
@@ -20,6 +21,9 @@ Project นี้ เป็นการสร้าง Data Pipeline สำห�
       </td>
       <td align="center">
         กรมควบคุมมลพิษ กระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม<br>Pollution Control Department (PCD), Ministry of Natural Resources and Environment.
+      </td>
+      <td align="center">
+        115dat
       </td>
     </tr>
     <tr>
@@ -29,6 +33,9 @@ Project นี้ เป็นการสร้าง Data Pipeline สำห�
       <td align="center">
         กรุงเทพมหานคร<br>Bangkok Metropolitan Administration (BMA)
       </td>
+      <td align="center">
+        69
+      </td>
     </tr>
     <tr>
       <td align="center">
@@ -36,6 +43,9 @@ Project นี้ เป็นการสร้าง Data Pipeline สำห�
       </td>
       <td align="center">
         ศูนย์ข้อมูลการเปลี่ยนแปลงสภาพภูมิอากาศ มหาวิทยาลัยเชียงใหม่<br>Climate Change Data Center (CCDC), Chiang Mai University.
+      </td>
+      <td align="center">
+        598
       </td>
     </tr>
     <tr>
@@ -45,6 +55,9 @@ Project นี้ เป็นการสร้าง Data Pipeline สำห�
       <td align="center">
         กรมป้องกันและบรรเทาสาธารณภัย กระทรวงมหาดไทย<br>Department of Disaster Prevention and Mitigation (DPM), Ministry of Interior.
       </td>
+      <td align="center">
+        564
+      </td>
     </tr>
     <tr>
       <td align="center">
@@ -53,6 +66,9 @@ Project นี้ เป็นการสร้าง Data Pipeline สำห�
       <td align="center">
         ศูนย์ข้อมูลสิ่งแวดล้อมแห่งชาติ บริษัท โทรคมนาคมแห่งชาติ จำกัด (มหาชน)<br>National Environmental Open Data by National Telecom (NT) Public Company Limited.
       </td>
+      <td align="center">
+        7,971
+      </td>
     </tr>
   </table>
 </div>
@@ -60,6 +76,12 @@ Project นี้ เป็นการสร้าง Data Pipeline สำห�
 ## Data Pipeline Architecture
 
 <a href="https://github.com/NutBodyslam053/NutBodyslam053/blob/0a943dbf869206ff887cd3f524624c6d3bd461e2/Airflow/images/overview.png"> <img src="images/overview.png" width="100%"/></a>
+
+## Data Model
+
+<div align="center">
+  <a href=""> <img src="images/data_model.png" width="60%"/></a>
+</div>
 
 ## Airflow DAGs
 
